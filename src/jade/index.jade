@@ -3,27 +3,66 @@ head
 	title Chevron News
 	meta(charset="utf-8")
 	meta(name="viewport",content="width=device-width,initial-scale=1")
+	link(rel="stylesheet",href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700")
 	link(rel="stylesheet",href="css/chevron.css")
 body
 	.container
 		.brand-header
 			.col-sm-8
 			.col-sm-4
-				img(src="img/hp.svg",width="100",height="100").responsive.pull-right
+				img(src="img/hp.png").responsive.pull-right
 	.container
 		.row
 			.col-sm-12.email-news-title
+				span.pull-right 
+					a#show-all(href="#") Show All
 				h1 News and Insights for 
 					span.company Chevron
-	.container.executive-quote-container
-	.container.executive-activity-container
-	.container.executive-announcement-container
-	.container.regulation-container
-	.container.new-alliance-container
-	.container.industry-container
-	.container.mgmt-change-container
-	.container.merger-container
-	.container.wins-container
+	.container.cat-container.executive-activity-container
+		h3.executive-activity
+			a.sectionCollapse(href="#",data-target="#executive-activity-subcon")
+				i.glyphicon.glyphicon-chevron-right
+				| &nbsp; Executive Activities
+	.container.cat-container.executive-announcement-container
+		h3.executive-announcement
+			a.sectionCollapse(href="#",data-target="#executive-announcement-subcon")
+				i.glyphicon.glyphicon-chevron-right
+				| &nbsp; Executive Announcements
+	.container.cat-container.executive-quote-container
+		h3.executive-quote
+			a.sectionCollapse(href="#",data-target="#executive-quote-subcon")
+				i.glyphicon.glyphicon-chevron-right
+				| &nbsp; Executive Quotes
+	.container.cat-container.regulation-container
+		h3.regulation
+			a.sectionCollapse(href="#",data-target="#regulation-subcon")
+				i.glyphicon.glyphicon-chevron-right
+				| &nbsp; Regulations and Litigations
+	.container.cat-container.new-alliance-container
+		h3.new-alliance
+			a.sectionCollapse(href="#",data-target="#new-alliance-subcon")
+				i.glyphicon.glyphicon-chevron-right
+				| &nbsp; New Alliances
+	.container.cat-container.mgmt-change-container
+		h3.mgmt-change
+			a.sectionCollapse(href="#",data-target="#mgmt-change-subcon")
+				i.glyphicon.glyphicon-chevron-right
+				| &nbsp; Management Changes
+	.container.cat-container.merger-container
+		h3.merger
+			a.sectionCollapse(href="#",data-target="#merger-subcon")
+				i.glyphicon.glyphicon-chevron-right
+				| &nbsp; Mergers and Acquisitions
+	.container.cat-container.wins-container
+		h3.wins
+			a.sectionCollapse(href="#",data-target="#wins-subcon")
+				i.glyphicon.glyphicon-chevron-right
+				| &nbsp; Wins
+	.container.cat-container.industry-container
+		h3.industry
+			a.sectionCollapse(href="#",data-target="#industry-subcon")
+				i.glyphicon.glyphicon-chevron-right
+				| &nbsp; General Industry
 		//- .news-story
 		//- 	.story-block
 		//- 		h3 Executive Quote
@@ -36,7 +75,7 @@ body
 		//- 				a(href="http://www.prdaily.com/Main/Articles/1d53442a-12f2-4f77-a890-629e76d20da2.aspx").more &nbsp;[More]
 	.container
 		.footer
-			p Powered by D&B Direct
+			p Powered by D&amp;B Direct
 	script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
 	script(src='js/parse.js')
 	script.
@@ -44,63 +83,69 @@ body
 			$.ajax({
 				type: "GET",
 				url: "chevron_news.xml",
-				contentType: "application/xml; charset=utf-8",
-				dataType: "xml",
+				dataType: "text", // text for IE, xml for the rest
 				success: function(xml){
 					if($(xml).find('NewsDetails').has('CategoryText:contains("Executive Quote")').length>0) {
-						$(".executive-quote-container").append('<h3 class="executive-quote"><a class="sectionCollapse" href="#" data-target="#executive-quote-subcon"><i class="glyphicon glyphicon-chevron-right"></i> Executive Quotes</a></h3>');
+						$("h3.executive-quote").show();
 						$(".executive-quote-container").append('<div class="hided" id="executive-quote-subcon"></div>');
 						$(xml).find('NewsDetails').has('CategoryText:contains("Executive Quote")').each(function(index){
 							writeStories("exec-quote-"+index,$("#executive-quote-subcon"),$(this));
 						});
 					}
 					if($(xml).find('NewsDetails').has('CategoryText:contains("Executive Activity")').length>0) {
-						$(".executive-activity-container").append('<h3 class="executive-activity"><a class="sectionCollapse" href="#" data-target="#executive-activity-subcon"><i class="glyphicon glyphicon-chevron-right"></i> Executive Activities</a></h3>');
+						$("h3.executive-activity").show();
 						$(".executive-activity-container").append('<div class="hided" id="executive-activity-subcon"></div>');
 						$(xml).find('NewsDetails').has('CategoryText:contains("Executive Activity")').each(function(index){
 							writeStories("exec-activity-"+index,$("#executive-activity-subcon"),$(this));
 						});
 					}
 					if($(xml).find('NewsDetails').has('CategoryText:contains("Executive Announcement")').length>0) {
-						$(".executive-announcement-container").append('<h3 class="executive-announcement"><a class="sectionCollapse" href="#" data-target="#executive-announcement-subcon"><i class="glyphicon glyphicon-chevron-right"></i> Executive Announcements</a></h3>');
+						$("h3.executive-announcement").show();
 						$(".executive-announcement-container").append('<div class="hided" id="executive-announcement-subcon"></div>');
 						$(xml).find('NewsDetails').has('CategoryText:contains("Executive Announcement")').each(function(index){
 							writeStories("exec-announce-"+index,$("#executive-announcement-subcon"),$(this));
 						});
 					}
 					if($(xml).find('NewsDetails').has('CategoryText:contains("Regulation Or Litigation")').length>0) {
-						$(".regulation-container").append('<h3 class="regulation"><a class="sectionCollapse" href="#" data-target="#regulation-subcon"><i class="glyphicon glyphicon-chevron-right"></i> Regulations And Litigations</a></h3>');
+						$("h3.regulation").show();
 						$(".regulation-container").append('<div class="hided" id="regulation-subcon"></div>');
 						$(xml).find('NewsDetails').has('CategoryText:contains("Regulation Or Litigation")').each(function(index){
 							writeStories("regulation-"+index,$("#regulation-subcon"),$(this));
 						});
 					}
 					if($(xml).find('NewsDetails').has('CategoryText:contains("New Alliance")').length>0) {
-						$(".new-alliance-container").append('<h3 class="new-alliance"><a class="sectionCollapse" href="#" data-target="#new-alliance-subcon"><i class="glyphicon glyphicon-chevron-right"></i> New Alliances</a></h3>');
+						$("h3.new-alliance").show();
 						$(".new-alliance-container").append('<div class="hided" id="new-alliance-subcon"></div>');
 						$(xml).find('NewsDetails').has('CategoryText:contains("New Alliance")').each(function(index){
 							writeStories("alliance-"+index,$("#new-alliance-subcon"),$(this));
 						});
 					}
 					if($(xml).find('NewsDetails').has('CategoryText:contains("Management Change")').length>0) {
-						$(".mgmt-change-container").append('<h3 class="mgmt-change"><a class="sectionCollapse" href="#" data-target="#mgmt-change-subcon"><i class="glyphicon glyphicon-chevron-right"></i> Management Changes</a></h3>');
+						$("h3.mgmt-change").show();
 						$(".mgmt-change-container").append('<div class="hided" id="mgmt-change-subcon"></div>');
 						$(xml).find('NewsDetails').has('CategoryText:contains("Management Change")').each(function(index){
 							writeStories("mgmt-change-"+index,$("#mgmt-change-subcon"),$(this));
 						});
 					}
 					if($(xml).find('NewsDetails').has('CategoryText:contains("Merger And Acquisition")').length>0) {
-						$(".merger-container").append('<h3 class="merger"><a class="sectionCollapse" href="#" data-target="#merger-subcon"><i class="glyphicon glyphicon-chevron-right"></i> Mergers and Acquisitions</a></h3>');
+						$("h3.merger").show();
 						$(".merger-container").append('<div class="hided" id="merger-subcon"></div>');
 						$(xml).find('NewsDetails').has('CategoryText:contains("Merger And Acquisition")').each(function(index){
 							writeStories("merger-"+index,$("#merger-subcon"),$(this));
 						});
 					}
 					if($(xml).find('NewsDetails').has('CategoryText:contains("Wins")').length>0) {
-						$(".wins-container").append('<h3 class="wins"><a class="sectionCollapse" href="#" data-target="#wins-subcon"><i class="glyphicon glyphicon-chevron-right"></i> Wins</a></h3>');
+						$("h3.wins").show();
 						$(".wins-container").append('<div class="hided" id="wins-subcon"></div>');
 						$(xml).find('NewsDetails').has('CategoryText:contains("Wins")').each(function(index){
 							writeStories("wins-"+index,$("#wins-subcon"),$(this));
+						});
+					}
+					if($(xml).find('NewsDetails').has('CategoryText:contains("General Industry")').length>0) {
+						$("h3.industry").show();
+						$(".industry-container").append('<div class="hided" id="industry-subcon"></div>');
+						$(xml).find('NewsDetails').has('CategoryText:contains("General Industry")').each(function(index){
+							writeStories("wins-"+index,$("#industry-subcon"),$(this));
 						});
 					}
 				},
@@ -109,17 +154,22 @@ body
 				}
 
 			});
-			$(document).on("click",$(".sectionCollapse"),function(event){
-				var clicker = $(event.target);
-				var theTarget = $($(clicker).attr("data-target"));
+			$(".sectionCollapse").click(function(){
+				var theTarget = $($(this).attr("data-target"));
 				if(theTarget.is(":visible")) {
-					clicker.find(".glyphicon").attr("class","glyphicon glyphicon-chevron-right");
+					$(this).find(".glyphicon").attr("class","glyphicon glyphicon-chevron-right");
 					theTarget.slideUp();
 				}
 				else {
-					clicker.find(".glyphicon").attr("class","glyphicon glyphicon-chevron-down");
+					$(this).find(".glyphicon").attr("class","glyphicon glyphicon-chevron-down");
 					theTarget.slideDown();
 				}
-				event.preventDefault();
+				return false;		
 			});
+			$("#show-all").click(function(e){
+				e.preventDefault();
+				$(".hided").show();
+				$(".glyphicon").attr("class","glyphicon glyphicon-chevron-down");
+			});
+
 		});
