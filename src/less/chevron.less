@@ -1,0 +1,117 @@
+@import "bootstrap.less";
+
+.container {
+	max-width: 800px;
+}
+
+.brand-header {
+	.make-row();
+	border-bottom: 1px solid @gray-light;
+	padding-bottom: @font-size-base;
+	padding-top: @font-size-base;
+}
+
+.news-story {
+	.make-row();
+	&:last-of-type .contents {
+		border-bottom: 0;
+	}
+}
+
+.story-block {
+	.make-sm-column(12);
+	h2,p,.contents {
+		margin-left: @font-size-base;
+		margin-right: @font-size-base;
+	}
+	.contents {
+		border-bottom: 1px solid lighten(@brand-primary,50%);
+		padding-bottom: @font-size-base;
+	}
+}
+.meta {
+	color: @gray-light;
+}
+
+.summary {
+	font-size: @font-size-large;
+}
+
+h3 {
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #fff;
+	padding: @font-size-base;
+	border-radius: @border-radius-base;
+	a {
+		color: #fff;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+}
+
+span.company {
+	font-weight: bold;
+}
+
+h3.executive-quote { 
+	background-color: @brand-info; 
+	a:hover {
+		color: darken(@brand-info,20%);
+	}
+}
+h3.executive-activity {
+	background-color: darken(@brand-success,20%); 
+	a:hover {
+		color: darken(@brand-success,40%);
+	}
+}
+h3.executive-announcement {
+	background-color: darken(@brand-warning,20%); 
+	a:hover {
+		color: darken(@brand-warning,40%);
+	}
+}
+h3.regulation {
+	background-color: darken(@brand-info,20%); 
+	a:hover {
+		color: darken(@brand-info, 40%)
+	} 
+}
+h3.new-alliance { 
+	background-color: @brand-warning; 
+	a:hover {
+		color: darken(@brand-warning,20%);
+	}
+}
+h3.mgmt-change { 
+	background-color: @brand-success; 
+	a:hover {
+		color: darken(@brand-success,20%);
+	}
+}
+h3.merger { 
+	background-color: @brand-danger;
+	a:hover {
+		color: darken(@brand-danger, 20%)
+	}
+}
+h3.wins { 
+	background-color: darken(@brand-warning,20%);
+	a:hover {
+		color: darken(@brand-warning, 40%)
+	}
+}
+
+.hided {
+	display: none;
+}
+
+.footer {
+	color: @gray-light;
+	text-align: center;
+	border-top: 1px solid @gray-lighter;
+	margin-top: @font-size-large;
+	padding-top: @font-size-large;	
+}

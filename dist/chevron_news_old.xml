@@ -1,0 +1,288 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap-env:Body xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+      <new:OrderProductResponse ServiceVersionNumber="3.0" xmlns:new="http://services.dnb.com/NewsAndMediaProductServiceV2.0">
+         <TransactionDetail>
+            <ServiceTransactionID>Id-64b860d7531a263d104b3230-2</ServiceTransactionID>
+            <TransactionTimestamp>2014-03-07T15:04:16.644-05:00</TransactionTimestamp>
+         </TransactionDetail>
+         <TransactionResult>
+            <SeverityText>Information</SeverityText>
+            <ResultID>CM000</ResultID>
+            <ResultText>Success</ResultText>
+         </TransactionResult>
+         <OrderProductResponseDetail>
+            <InquiryDetail>
+               <DUNSNumber>001382555</DUNSNumber>
+               <CountryISOAlpha2Code>US</CountryISOAlpha2Code>
+            </InquiryDetail>
+            <Product>
+               <DNBProductID>NEWS_MDA</DNBProductID>
+               <Organization>
+                  <SubjectHeader>
+                     <DUNSNumber>001382555</DUNSNumber>
+                  </SubjectHeader>
+                  <Telecommunication>
+                     <TelephoneNumber>
+                        <TelecommunicationNumber>(925) 842-1000</TelecommunicationNumber>
+                        <InternationalDialingCode>1</InternationalDialingCode>
+                     </TelephoneNumber>
+                     <FacsimileNumber>
+                        <TelecommunicationNumber>(925) 894-0583</TelecommunicationNumber>
+                        <InternationalDialingCode>1</InternationalDialingCode>
+                     </FacsimileNumber>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>431744650466</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>160926359038</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>chevron</UserContentKey>
+                        <UserDisplayName>Chevron</UserDisplayName>
+                        <SubscriberQuantity>1600155</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>texacoecuador</UserContentKey>
+                        <SubscriberQuantity>360</SubscriberQuantity>
+                     </SocialMediaDetail>
+                  </Telecommunication>
+                  <Location>
+                     <PrimaryAddress>
+                        <StreetAddressLine>
+                           <LineText>6001 BOLLINGER CANYON RD.</LineText>
+                        </StreetAddressLine>
+                        <PrimaryTownName>San Ramon</PrimaryTownName>
+                        <CountryISOAlpha2Code>US</CountryISOAlpha2Code>
+                        <TerritoryAbbreviatedName>CA</TerritoryAbbreviatedName>
+                        <PostalCode>945832324</PostalCode>
+                        <CountyOfficialName>Contra Costa County</CountyOfficialName>
+                        <TerritoryOfficialName>California</TerritoryOfficialName>
+                     </PrimaryAddress>
+                     <MailingAddress>
+                        <CountryISOAlpha2Code>US</CountryISOAlpha2Code>
+                     </MailingAddress>
+                  </Location>
+                  <OrganizationName>
+                     <OrganizationPrimaryName>
+                        <OrganizationName>CHEVRON CORPORATION</OrganizationName>
+                     </OrganizationPrimaryName>
+                     <TradeStyleName>
+                        <OrganizationName>Chevron</OrganizationName>
+                     </TradeStyleName>
+                  </OrganizationName>
+                  <OrganizationDetail>
+                     <FamilyTreeMemberRole>
+                        <FamilyTreeMemberRoleText DNBCodeValue="9141">Parent/Headquarters</FamilyTreeMemberRoleText>
+                     </FamilyTreeMemberRole>
+                  </OrganizationDetail>
+                  <News>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-07T14:12:13-05:00</PublishedDateTimestamp>
+                        <SourceDescription>PR Daily</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Locals don't share outsiders' rage over Chevron&apos;s post-blast pizza coupons</TitleText>
+                        <ContentText>Chevron sparked considerable outrage a few weeks ago when it apologized for a very loud, very disruptive fracking well explosion in Bobtown, Pa., with coupons for free pizza .
+
+Nearly 13,000 people have signed a MoveOn.org petition demanding a further apology for the explosion, calling the pizza coupons &quot;an insult.&quot; According to an Associated Press story , none of those people are</ContentText>
+                        <WebPageURL>http://www.prdaily.com/Main/Articles/1d53442a-12f2-4f77-a890-629e76d20da2.aspx</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-07T13:30:17-05:00</PublishedDateTimestamp>
+                        <SourceDescription>The Heritage Foundation Blog</SourceDescription>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <TitleText>Chevron Ruling Will Strengthen Rule of Law in Ecuador</TitleText>
+                        <ContentText>A New York federal court ruling this week sends a strong and positive message to Ecuador&#8212;that corrupt methods and practices that undermine the integrity of Ecuador&apos;s judicial system will not be tolerated in the United States. They should not be tolerated in Ecuador, either.
+
+Two years ago, a court in Ecuador levied a colossal fine of nearly $19 billion (later reduced to $9.5 billion)</ContentText>
+                        <WebPageURL>http://blog.heritage.org/2014/03/07/chevron-ruling-will-strengthen-rule-law-ecuador/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-07T09:42:59-05:00</PublishedDateTimestamp>
+                        <SourceDescription>BlackListedNews.com</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Ukraine signs $10 billion shale gas deal with Chevron</TitleText>
+                        <ContentText>Ukraine signed a $10 billion shale gas production-sharing agreement with U.S. Chevron ( CVX.N ) on Tuesday, another step in a drive for more energy independence from Russia .
+
+The deal to develop its western Olesska field followed a similar shale gas agreement with Royal Dutch Shell ( RDSa.L ) in January and boosts Ukraine's leadership at a time of fraught relations with Moscow over gas?</ContentText>
+                        <WebPageURL>http://www.blacklistednews.com/Ukraine_signs_%2410_billion_shale_gas_deal_with_Chevron/33456/0/0/0/Y/M.html</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-07T03:47:01-05:00</PublishedDateTimestamp>
+                        <SourceDescription>KansasCity.com</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Chevron pizza 'scandal' isn't one in small town</TitleText>
+                        <ContentText>News stories, TV shows and blogs &#8212; many sarcastic or outright scornful &#8212; spread the word far and wide. "Shame on you," one person wrote about the offer by Chevron Corp. "How insulting!" said another. Comedy Central's satirical "The Colbert Report" skewered it.
+
+But the 750 or so residents of the hamlet of Bobtown? Not one has signed an online petition demanding an apology for</ContentText>
+                        <WebPageURL>http://www.kansascity.com/2014/03/07/4871652/chevron-pizza-scandal-isnt-one.html</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-07T01:04:22-05:00</PublishedDateTimestamp>
+                        <SourceDescription>Watts Up With That?</SourceDescription>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <TitleText>Chevron defeats the Greens with their own hubris</TitleText>
+                        <ContentText>Story submitted by Eric Worrall
+
+James Delingpole writing for Breitbart London has published a fascinating story of how green groups were undone by their own hubris and misleading evidence in their effort to sue Chevron Oil for billions of dollars for pollution.
+
+Thanks to Chevron&apos;s CEO John S Watson&apos;s courages decision to stand up to naked green bullying, and the arrogant stupidity of?</ContentText>
+                        <WebPageURL>http://wattsupwiththat.com/2014/03/06/chevron-defeats-the-greens-with-their-own-hubris/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-06T21:23:51-05:00</PublishedDateTimestamp>
+                        <SourceDescription>The Wall Street Journal</SourceDescription>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <TitleText>How Business Can Fight Fraudulent Lawsuits</TitleText>
+                        <ContentText>Trial lawyers may increasingly feel the sting of the Racketeer Influenced and Corrupt Organizations Act.
+
+On Tuesday, in a federal courtroom in Manhattan, U.S. District Judge Lewis Kaplan found plaintiffs lawyer Steven Donziger and his legal team had engaged in coercion, bribery, money laundering and other misconduct to obtain a $9.5 billion judgment against Chevron CVX +0.37% in an</ContentText>
+                        <WebPageURL>http://online.wsj.com/news/articles/SB10001424052702304815004579419600026911302?mod=WSJ_Opinion_LEFTTopOpinion&amp;mg=reno64-wsj</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-06T20:06:24-05:00</PublishedDateTimestamp>
+                        <SourceDescription>The Wall Street Journal</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <TitleText>Energy Chiefs Sound Cost Alarms</TitleText>
+                        <ContentText>HOUSTON&#8212;Underneath their swagger and bravado, global energy chiefs gathered here for their annual U.S. conference expressed a palpable sense of dread over the soaring costs of their signature oil and gas projects.
+
+"All of us are facing new realities and pressures," John Watson , chairman and chief executive of Chevron Corp. CVX +0.37% , told a hotel ballroom jammed with an international</ContentText>
+                        <WebPageURL>http://online.wsj.com/news/articles/SB10001424052702304732804579423473478126620?mod=WSJ_US_LatestHeadlines&amp;mg=reno64-wsj</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-06T18:15:47-05:00</PublishedDateTimestamp>
+                        <SourceDescription>Prensa Latina News Agency</SourceDescription>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <TitleText>Other Countries to Implement Ecuadorian Ruling Agaisnt Chevron</TitleText>
+                        <ContentText>06 de marzo de 2014, 17:01Quito, Mar 5 (Prensa Latina) The lawyers of those affected by the oil company Chevron said today that the adverse judgment issued by a U.S. judge will not prevent the implementation by other countries of the ruling issued by an Ecuadorian court.
+
+In this regard, Lawyer Juan Pablo S&#225;enz said that the verdict of the U.S. judge is applied only in the territory of</ContentText>
+                        <WebPageURL>http://www.plenglish.com/index.php?option=com_content&amp;task=view&amp;id=2448811&amp;Itemid=1</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-06T15:27:26-05:00</PublishedDateTimestamp>
+                        <SourceDescription>TechBeat - BusinessWeek</SourceDescription>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <TitleText>The Chevron RICO Ruling and Abortion Clinic Protests</TitleText>
+                        <ContentText>At the heart of the matter is whether the racketeering law permits trial judges to impose injunctions</ContentText>
+                        <WebPageURL>http://www.businessweek.com/articles/2014-03-06/how-the-chevron-rico-ruling-relates-to-abortion-clinic-protests</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-06T11:55:08-05:00</PublishedDateTimestamp>
+                        <SourceDescription>NewsBusters Blog</SourceDescription>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <TitleText>Evening News Shows Ignore Chevron's Win: Ecuador Ruling 'Fraud'</TitleText>
+                        <ContentText>In a huge victory for the second-largest U.S. oil company, a U.S. district judge ruled March 4, that a $9.5 billion award against Chevron by an Ecuadorean court was &quot;obtained by corrupt means.&quot; The massive figure had been lowered by Ecuador&apos;s highest court in 2013 after an earlier decision against Chevron of $19 billion.
+
+The broadcast networks took no notice of the decision and</ContentText>
+                        <WebPageURL>http://newsbusters.org/blogs/julia-seymour/2014/03/06/evening-news-shows-ignore-chevrons-win-ecuador-ruling-fraud</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-06T10:57:55-05:00</PublishedDateTimestamp>
+                        <SourceDescription>EcoWatch</SourceDescription>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <TitleText>U.S. Judge Sides With Chevron in Case Against Ecuadorians, Allows Oil Giant to Evade Justice</TitleText>
+                        <ContentText>Amazon Watch stands with Ecuadorian communities in rejecting a misguided judgment delaying justice for some 30,000 indigenous people and farmers who continue to suffer from the company&apos;s toxic legacy in the Amazon rainforest . The decision&#8212;handed down yesterday by New York District Court Judge Lewis Kaplan&#8212;also underscores the threat that well-financed corporations pose ?to? justice and</ContentText>
+                        <WebPageURL>http://ecowatch.com/2014/03/05/chevron-case-against-ecuadorians-oil-giant-evades-justice/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=chevron-case-against-ecuadorians-oil-giant-evades-justice</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-06T05:48:39-05:00</PublishedDateTimestamp>
+                        <SourceDescription>National Public Radio, Inc.</SourceDescription>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <TitleText>U.S. Judge Sides With Chevron In Amazon Pollution Case</TitleText>
+                        <ContentText>Audio for this story from Morning Edition will be available at approximately 9:00 a.m. ET.
+
+He ruled the $9.5 billion verdict against Chevron for oil pollution in the Amazon was obtained illegally and is unenforceable. For more, David Green talks to Paul Barrett of Bloomberg Businessweek.</ContentText>
+                        <WebPageURL>http://www.npr.org/2014/03/06/286646472/u-s-judge-sides-with-chevron-in-amazon-pollution-case?ft=1&amp;f=1006</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-06T03:23:14-05:00</PublishedDateTimestamp>
+                        <SourceDescription>U.S. Securities and Exchange Commission</SourceDescription>
+                        <CategoryText>Executive Announcement</CategoryText>
+                        <CategoryText>Management Change</CategoryText>
+                        <CategoryText>New Alliance</CategoryText>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <TitleText>Atlas Energy, L.P.: 8-K Filing 2014-03-04</TitleText>
+                        <ContentText>Atlas Energy, L.P. Item 5.02. Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers
+Effective March 4, 2014, the Board of Directors (the "Board") of Atlas Energy GP, LLC, the general partner of Atlas Energy, L.P. (the "Partnership"), approved the appointment of Jeffrey Kupfer to the Board. Mr.</ContentText>
+                        <WebPageURL>http://www.sec.gov/Archives/edgar/data/1347218/000118143114010616/rrd404519.htm</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-06T02:53:35-05:00</PublishedDateTimestamp>
+                        <SourceDescription>Omaha World-Herald</SourceDescription>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <TitleText>Chevron legal victory boosts fight against Ecuador claims</TitleText>
+                        <ContentText>Since losing a $19 billion judgment in an Ecuadorean court three years ago, Chevron has drawn the condemnation of human rights and environmental activists by refusing to pay anything in fines or accept blame for polluting the Ecuadorean rain forest.
+
+The award against Chevron was one of the largest judgments ever imposed by a court for environmental pollution, and it appeared to pit a</ContentText>
+                        <WebPageURL>http://www.omaha.com/article/20140306/MONEY/140309246</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-06T02:10:03-05:00</PublishedDateTimestamp>
+                        <SourceDescription>Circle of Blue</SourceDescription>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <TitleText>The Stream, March 5: U.S. Judge Finds Corruption in Ecuador&apos;s Decision on Chevron Water Pollution Case</TitleText>
+                        <ContentText>Pollution A federal judge in the United States ruled that actions by lawyers representing plaintiffs in a decades-long Ecuador water pollution case were corrupt, making it less likely that Chevron&#8212;the oil company accused of pollution&#8212;will end up paying the $US 9.5 billion fine ordered last year by Ecuador&apos;s highest court, The New York Times reported.</ContentText>
+                        <WebPageURL>http://www.circleofblue.org/waternews/2014/the-stream/stream-march-5-u-s-judge-finds-corruption-ecuadors-decision-chevron-water-pollution-case/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=stream-march-5-u-s-judge-finds-corruption-ecuadors-decision-chevron-water-pollution-case</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-06T01:04:26-05:00</PublishedDateTimestamp>
+                        <SourceDescription>Bloomberg.com</SourceDescription>
+                        <CategoryText>Executive Announcement</CategoryText>
+                        <CategoryText>Management Change</CategoryText>
+                        <TitleText>Argentina Oil&apos;s Bonanza Helping Too Few Led by Political Friends</TitleText>
+                        <ContentText>Chevron and YPF are drilling in Argentina on the world's fourth-largest shale oil reserve.
+
+Chevron and YPF are drilling in Argentina on the world's fourth-largest shale oil reserve.
+
+Chevron and YPF are drilling in Argentina on the world's fourth-largest shale oil reserve. Close
+
+Jose Luis Manzano, a former house speaker, controls companies that won 33 oil leases in six</ContentText>
+                        <WebPageURL>http://www.bloomberg.com/news/2014-03-06/argentina-oil-s-bonanza-helping-too-few-led-by-political-friends.html</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-06T00:35:51-05:00</PublishedDateTimestamp>
+                        <SourceDescription>Right Wing News</SourceDescription>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <TitleText>Big Hole in Big-Oil Lawsuit</TitleText>
+                        <ContentText>The story starts with a former journalist and Harvard Law School graduate who wanted to improve conditions for Ecuadorean people living in the Amazon rain forest, polluted by a big oil company. In 2011, attorney Steven Donziger won a $9.5 billion judgment against Chevron Corp. But don&apos;t expect a happy ending for his clients.
+
+On Tuesday, Lewis Kaplan, a federal judge in New York,</ContentText>
+                        <WebPageURL>http://www.rightwingnews.com/column-2/big-hole-in-big-oil-lawsuit/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-06T00:17:13-05:00</PublishedDateTimestamp>
+                        <SourceDescription>Hydrocarbon Processing</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>CERAWeek &apos;14: Chevron CEO sees &quot;new reality&quot; in project pricing</TitleText>
+                        <ContentText>There is no shortage of global energy resources, Chevron's CEO said at the IHS CERAWeek 2014 conference. However, the economics to develop big projects are increasing.
+
+HOUSTON -- John Watson, chairman and CEO of Chevron, delivered Tuesday's keynote address at the IHS CERAWeek 2014 conference. In his remarks, Watson reviewed the last few years of the oil and gas (O&amp;G) industry.
+
+?</ContentText>
+                        <WebPageURL>http://www.hydrocarbonprocessing.com/Article/3315705/Heat-Transfer/CERAWeek-14-Chevron-CEO-sees-new-reality-in-project-pricing.html</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-06T00:08:39-05:00</PublishedDateTimestamp>
+                        <SourceDescription>Oil Change</SourceDescription>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <TitleText>Activists Criticise &quot;Misguided&quot; Chevron Court Ruling</TitleText>
+                        <ContentText>Indigenous rights groups reacted angrily yesterday to what they labelled as a &quot;misguided judgement&quot; by a New York District Court Judge, Lewis Kaplan, who ruled that lawyers representing Amazonian Indians had used &quot;corrupt means&quot; and &quot;fraud&quot; to win a legal case against Chevron in Ecuador.
+
+The dramatic judgement is the latest setback for 30,000 indigenous Indians in their decades long</ContentText>
+                        <WebPageURL>http://priceofoil.org/2014/03/05/activists-criticise-misguided-chevron-court-ruling/</WebPageURL>
+                     </NewsDetails>
+                  </News>
+               </Organization>
+            </Product>
+         </OrderProductResponseDetail>
+      </new:OrderProductResponse>
+   </soap-env:Body>
+</soapenv:Envelope>
