@@ -1,0 +1,1908 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap-env:Body xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+      <new:OrderProductResponse ServiceVersionNumber="3.0" xmlns:new="http://services.dnb.com/NewsAndMediaProductServiceV2.0">
+         <TransactionDetail>
+            <ServiceTransactionID>Id-aab81ddf533b01a005db742e-2</ServiceTransactionID>
+            <TransactionTimestamp>2014-04-01T14:12:50.780-04:00</TransactionTimestamp>
+         </TransactionDetail>
+         <TransactionResult>
+            <SeverityText>Information</SeverityText>
+            <ResultID>CM000</ResultID>
+            <ResultText>Success</ResultText>
+         </TransactionResult>
+         <OrderProductResponseDetail>
+            <InquiryDetail>
+               <DUNSNumber>153804570</DUNSNumber>
+               <CountryISOAlpha2Code>US</CountryISOAlpha2Code>
+            </InquiryDetail>
+            <Product>
+               <DNBProductID>NEWS_MDA</DNBProductID>
+               <Organization>
+                  <SubjectHeader>
+                     <DUNSNumber>153804570</DUNSNumber>
+                  </SubjectHeader>
+                  <Telecommunication>
+                     <TelephoneNumber>
+                        <TelecommunicationNumber>(408) 526-4000</TelecommunicationNumber>
+                        <InternationalDialingCode>1</InternationalDialingCode>
+                     </TelephoneNumber>
+                     <FacsimileNumber>
+                        <TelecommunicationNumber>(408) 526-4100</TelecommunicationNumber>
+                        <InternationalDialingCode>1</InternationalDialingCode>
+                     </FacsimileNumber>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>10084673031</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>92041345298</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>106620349323</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>10695608086</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>110355786227</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>110897218939649</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>111552132193668</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>126986347333909</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>127514253946424</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>129771820396391</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>133380531411</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>134461633231789</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>135395493142024</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>135651874382</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>136108233065962</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>137690208891</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>140202126131</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>142617185751882</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>143623668981874</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>148739718523998</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>150109618372328</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>154903424779</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>161191777225094</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>164338080265686</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>165608170123080</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>166004992058</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>168015103243565</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>172835892757268</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>177203337843</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>190010265716</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>203541722668</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>205734708232</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>21049860122</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>251482904537</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>264605722388</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>270211262806</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>273648470388</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>280471880456</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>297424318872</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>30681312565</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>315047349046</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>31641567257</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>335499607802</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>37472752215</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>42542589862</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>46109859300</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>54734141907</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>57581036851</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>58931848451</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>68126657240</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>69093677119</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>73874278286</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>74166934989</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>75717837879</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>81649606397</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>106530092731894</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>padmasree</UserContentKey>
+                        <UserDisplayName>Padmasree</UserDisplayName>
+                        <SubscriberQuantity>26544214</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscosystems</UserContentKey>
+                        <UserDisplayName>Cisco Systems</UserDisplayName>
+                        <SubscriberQuantity>6526604</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscodc</UserContentKey>
+                        <UserDisplayName>Cisco Data Center</UserDisplayName>
+                        <SubscriberQuantity>2266429</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>cisco_mobility</UserContentKey>
+                        <UserDisplayName>Cisco Mobility</UserDisplayName>
+                        <SubscriberQuantity>1969715</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscosecurity</UserContentKey>
+                        <UserDisplayName>Cisco Security</UserDisplayName>
+                        <SubscriberQuantity>1950670</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscocollab</UserContentKey>
+                        <UserDisplayName>Cisco Collaboration</UserDisplayName>
+                        <SubscriberQuantity>1120570</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscosmallbiz</UserContentKey>
+                        <UserDisplayName>Cisco Small Business</UserDisplayName>
+                        <SubscriberQuantity>595006</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>learningatcisco</UserContentKey>
+                        <UserDisplayName>LearningatCisco</UserDisplayName>
+                        <SubscriberQuantity>441036</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscoit</UserContentKey>
+                        <UserDisplayName>Cisco IT</UserDisplayName>
+                        <SubscriberQuantity>256765</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>cisco_support</UserContentKey>
+                        <UserDisplayName>Cisco Support</UserDisplayName>
+                        <SubscriberQuantity>212766</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscosp360</UserContentKey>
+                        <UserDisplayName>CiscoSP360</UserDisplayName>
+                        <SubscriberQuantity>180540</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>cisco_channels</UserContentKey>
+                        <UserDisplayName>Cisco Channels</UserDisplayName>
+                        <SubscriberQuantity>139589</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscoevents</UserContentKey>
+                        <UserDisplayName>CiscoEvents</UserDisplayName>
+                        <SubscriberQuantity>101871</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>cisco_insights</UserContentKey>
+                        <UserDisplayName>Cisco_Insights</UserDisplayName>
+                        <SubscriberQuantity>84354</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscoretail</UserContentKey>
+                        <UserDisplayName>Kenneth Leung</UserDisplayName>
+                        <SubscriberQuantity>80319</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>carlosdominguez</UserContentKey>
+                        <UserDisplayName>carlosdominguez</UserDisplayName>
+                        <SubscriberQuantity>71859</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscoumi</UserContentKey>
+                        <UserDisplayName>Cisco umi</UserDisplayName>
+                        <SubscriberQuantity>62288</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscoedu</UserContentKey>
+                        <UserDisplayName>CiscoEDU</UserDisplayName>
+                        <SubscriberQuantity>54338</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>officiallinksys</UserContentKey>
+                        <UserDisplayName>OfficialLinksys</UserDisplayName>
+                        <SubscriberQuantity>49623</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>keitheg</UserContentKey>
+                        <UserDisplayName>Keith Goodwin</UserDisplayName>
+                        <SubscriberQuantity>43948</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscoitalia</UserContentKey>
+                        <UserDisplayName>Cisco Italia</UserDisplayName>
+                        <SubscriberQuantity>35009</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>cisco_la</UserContentKey>
+                        <UserDisplayName>CiscoLatinoAmerica</UserDisplayName>
+                        <SubscriberQuantity>31535</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscospmobility</UserContentKey>
+                        <UserDisplayName>Cisco SP Mobility</UserDisplayName>
+                        <SubscriberQuantity>27161</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscocanada</UserContentKey>
+                        <UserDisplayName>Cisco Canada</UserDisplayName>
+                        <SubscriberQuantity>24370</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscoservices</UserContentKey>
+                        <UserDisplayName>Cisco SSC</UserDisplayName>
+                        <SubscriberQuantity>19330</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscohealth</UserContentKey>
+                        <UserDisplayName>Cisco Health</UserDisplayName>
+                        <SubscriberQuantity>19276</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscoanz</UserContentKey>
+                        <UserDisplayName>Cisco ANZ</UserDisplayName>
+                        <SubscriberQuantity>18158</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>cisco_japan</UserContentKey>
+                        <UserDisplayName>Cisco Japan</UserDisplayName>
+                        <SubscriberQuantity>16902</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscosocial</UserContentKey>
+                        <UserDisplayName>Cisco Social</UserDisplayName>
+                        <SubscriberQuantity>12712</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscocansacsm</UserContentKey>
+                        <UserDisplayName>Cisco Systems</UserDisplayName>
+                        <SubscriberQuantity>10830</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>deanna24</UserContentKey>
+                        <UserDisplayName>Deanna Belle Govoni</UserDisplayName>
+                        <SubscriberQuantity>10428</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscomexico</UserContentKey>
+                        <UserDisplayName>CiscoMexico</UserDisplayName>
+                        <SubscriberQuantity>10055</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscosbsupport</UserContentKey>
+                        <UserDisplayName>Cisco SB Support</UserDisplayName>
+                        <SubscriberQuantity>9876</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscodcdocs</UserContentKey>
+                        <UserDisplayName>Cisco DC Docs</UserDisplayName>
+                        <SubscriberQuantity>8027</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscophysec</UserContentKey>
+                        <UserDisplayName>Cisco PhySec</UserDisplayName>
+                        <SubscriberQuantity>7346</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscobizvideo</UserContentKey>
+                        <UserDisplayName>CiscoBizVideo</UserDisplayName>
+                        <SubscriberQuantity>7279</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscoibsg</UserContentKey>
+                        <UserDisplayName>Global Consultancy</UserDisplayName>
+                        <SubscriberQuantity>6420</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscoutilities</UserContentKey>
+                        <UserDisplayName>Cisco Utilities</UserDisplayName>
+                        <SubscriberQuantity>5405</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>rwhitecabbell</UserContentKey>
+                        <UserDisplayName>Ruth White-Cabbell</UserDisplayName>
+                        <SubscriberQuantity>5113</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscofsi</UserContentKey>
+                        <UserDisplayName>Cisco FSI</UserDisplayName>
+                        <SubscriberQuantity>4356</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>charlieatcisco</UserContentKey>
+                        <UserDisplayName>Charlie Treadwell</UserDisplayName>
+                        <SubscriberQuantity>3582</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>alohaallijohn</UserContentKey>
+                        <UserDisplayName>Allison</UserDisplayName>
+                        <SubscriberQuantity>3341</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscocanadasb</UserContentKey>
+                        <UserDisplayName>CiscoCanada SmallBiz</UserDisplayName>
+                        <SubscriberQuantity>2290</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscoapac</UserContentKey>
+                        <UserDisplayName>Cisco APAC</UserDisplayName>
+                        <SubscriberQuantity>1950</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>spdatacenter</UserContentKey>
+                        <UserDisplayName>CiscoSPDataCenter</UserDisplayName>
+                        <SubscriberQuantity>1628</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscocanadasp</UserContentKey>
+                        <UserDisplayName>Cisco Canada SP</UserDisplayName>
+                        <SubscriberQuantity>1404</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscoscre</UserContentKey>
+                        <UserDisplayName>Rick Huijbregts</UserDisplayName>
+                        <SubscriberQuantity>1350</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>tonypaikeday</UserContentKey>
+                        <UserDisplayName>Tony Paikeday</UserDisplayName>
+                        <SubscriberQuantity>1229</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ciscogovt</UserContentKey>
+                        <UserDisplayName>CiscoGovt</UserDisplayName>
+                        <SubscriberQuantity>1191</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>abhinav_josh</UserContentKey>
+                        <UserDisplayName>Abhinav Joshi</UserDisplayName>
+                        <SubscriberQuantity>522</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>linksyscanada</UserContentKey>
+                        <UserDisplayName>Linksys Canada</UserDisplayName>
+                        <SubscriberQuantity>457</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ksohl</UserContentKey>
+                        <UserDisplayName>Karen Sohl</UserDisplayName>
+                        <SubscriberQuantity>282</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>cisco_docwiki</UserContentKey>
+                        <UserDisplayName>Cisco DocWiki</UserDisplayName>
+                        <SubscriberQuantity>134</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>dmn0211</UserContentKey>
+                        <UserDisplayName>David Antkowiak</UserDisplayName>
+                        <SubscriberQuantity>124</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>osgcisco</UserContentKey>
+                        <UserDisplayName>Olivia Shen Green</UserDisplayName>
+                        <SubscriberQuantity>94</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>cdeltac</UserContentKey>
+                        <UserDisplayName>Chris Coleman</UserDisplayName>
+                        <SubscriberQuantity>21</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>scfringe</UserContentKey>
+                        <UserDisplayName>Scott Fringer</UserDisplayName>
+                        <SubscriberQuantity>11</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>cscopr</UserContentKey>
+                        <SubscriberQuantity>48364</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>ciscosmallbusiness</UserContentKey>
+                        <SubscriberQuantity>15233</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>ciscosupportchannel</UserContentKey>
+                        <SubscriberQuantity>13843</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>ciscosp360</UserContentKey>
+                        <SubscriberQuantity>13470</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>ciscocollaboration</UserContentKey>
+                        <SubscriberQuantity>7758</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>ciscocin</UserContentKey>
+                        <SubscriberQuantity>1306</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>ciscoibsg</UserContentKey>
+                        <SubscriberQuantity>689</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>ciscoconnectedgovt1</UserContentKey>
+                        <SubscriberQuantity>12</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>ciscocanada</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>ciscoretail</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                  </Telecommunication>
+                  <Location>
+                     <PrimaryAddress>
+                        <StreetAddressLine>
+                           <LineText>170 W TASMAN DR</LineText>
+                        </StreetAddressLine>
+                        <PrimaryTownName>San Jose</PrimaryTownName>
+                        <CountryISOAlpha2Code>US</CountryISOAlpha2Code>
+                        <TerritoryAbbreviatedName>CA</TerritoryAbbreviatedName>
+                        <PostalCode>951341706</PostalCode>
+                        <CountyOfficialName>Santa Clara County</CountyOfficialName>
+                        <TerritoryOfficialName>California</TerritoryOfficialName>
+                     </PrimaryAddress>
+                     <MailingAddress>
+                        <CountryISOAlpha2Code>US</CountryISOAlpha2Code>
+                     </MailingAddress>
+                  </Location>
+                  <OrganizationName>
+                     <OrganizationPrimaryName>
+                        <OrganizationName>CISCO SYSTEMS, INC.</OrganizationName>
+                     </OrganizationPrimaryName>
+                     <TradeStyleName>
+                        <OrganizationName>Cisco Systems</OrganizationName>
+                     </TradeStyleName>
+                  </OrganizationName>
+                  <OrganizationDetail>
+                     <FamilyTreeMemberRole>
+                        <FamilyTreeMemberRoleText DNBCodeValue="9141">Parent/Headquarters</FamilyTreeMemberRoleText>
+                     </FamilyTreeMemberRole>
+                  </OrganizationDetail>
+                  <News>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-04-01T13:00:16-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Tech Trader Daily</SourceDescription>
+                        <CategoryText>Earnings Release</CategoryText>
+                        <CategoryText>Financial News</CategoryText>
+                        <CategoryText>General Industry</CategoryText>
+                        <TitleText>Cisco, Nokia: Huawei a ‘Growing Challenge,’ Say Raymond James, UBS</TitleText>
+                        <ContentText>Telecom analysts are reflecting on the annual report yesterday by Chinese telecom equipment and smartphone vendor Huawei, which is privately held.
+
+Huawei’s annual report is available in PDF form on its Web site.
+
+Huawei saw sales growth of 8.6% in 2013, up from 7.9% in 2012, to $39.5 billion.
+
+The company remarked that “Huawei earned 65% of its revenue from markets outside of</ContentText>
+                        <WebPageURL>http://blogs.barrons.com/techtraderdaily/2014/04/01/cisco-nokia-huawei-a-growing-challenge-say-raymond-james-ubs/?mod=BOLBlog</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-04-01T11:01:27-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Market Wire</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>New Alliance</CategoryText>
+                        <CategoryText>Awards</CategoryText>
+                        <TitleText>LaSalle Solutions Wins Cisco Services US Partner of the Year Award at Cisco Partner Summit 2014</TitleText>
+                        <ContentText>ROSEMONT, IL--(Marketwired - Apr 1, 2014) - LaSalle Solutions , a leading provider of life-cycle management services for technology and capital assets, announced today that it is the recipient of the Cisco® Services Partner of the Year for the United States. Cisco unveiled the award winners at a global awards reception during its annual partner conference this week in Las Vegas.
+
+?</ContentText>
+                        <WebPageURL>http://www.marketwired.com/press-release/lasalle-solutions-wins-cisco-services-us-partner-year-award-cisco-partner-summit-2014-1894789.htm</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-04-01T10:45:30-04:00</PublishedDateTimestamp>
+                        <SourceDescription>channel buzz.ca</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>New Linksys partner program, products announced at Interop</TitleText>
+                        <ContentText>Small business-focused networking vendor Belkin , which last year acquired the Linksys brand and engineering assets from Cisco , and then began to roll out new Linksys-branded products, is making a flurry of announcements at Interop today to strengthen the Linksys business. These included a new line of six Smart Switches, two new 802.11ac Access Points, and a new consolidated partner</ContentText>
+                        <WebPageURL>http://www.channelbuzz.ca/2014/04/new-linksys-partner-program-products-announced-interop-9205/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-04-01T10:32:13-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Jutia Group</SourceDescription>
+                        <CategoryText>General Industry</CategoryText>
+                        <TitleText>Company Update: Cisco Systems Inc (NASDAQ:CSCO) – Cisco Expands Connected Safety and Security Solutions With Analytics and Open Platform Applications</TitleText>
+                        <ContentText>[Marketwired] – The new open platform and application vision from Cisco for Safety and Security will help organizations across industries create customized applications to fit unique user needs. Cisco is expanding its …
+
+Cisco Systems, Inc. (CSCO), valued at $116.68B, began trading this morning at $22.33.
+
+Looking at the equity, the company’s one day range is $22.30 to $22.80 and has</ContentText>
+                        <WebPageURL>http://jutiagroup.com/20140401-company-update-cisco-systems-inc-nasdaqcsco-cisco-expands-connected-safety-and-security-solutions-with-analytics-and-open-platform-applications/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-04-01T09:52:31-04:00</PublishedDateTimestamp>
+                        <SourceDescription>ZDNET</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Cisco expands security solutions with open platform, analytics</TitleText>
+                        <ContentText>Summary: The company’s security ecosystem will integrate with Cisco Internet of Things products, with the goal of providing developers a common platform to deliver solutions for public safety, utilities and industrial environments.
+
+Cisco will expand its safety and security lineup with new open platform applications and analytics, the company announced Tuesday. The company's security</ContentText>
+                        <WebPageURL>http://www.zdnet.com/cisco-expands-security-solutions-with-open-platform-analytics-7000027933/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-04-01T09:02:07-04:00</PublishedDateTimestamp>
+                        <SourceDescription>GlobeNewswire</SourceDescription>
+                        <CategoryText>Reduction</CategoryText>
+                        <CategoryText>New Product</CategoryText>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>General Industry</CategoryText>
+                        <CategoryText>Expansion</CategoryText>
+                        <TitleText>Tech Data Expands Cisco Services Practice With SMARTattach Opportunity Portal</TitleText>
+                        <ContentText>CLEARWATER, Fla., April 1, 2014 (GLOBE NEWSWIRE) -- Tech Data Corporation (Nasdaq: TECD ) today introduced the SMARTattach Opportunity Portal, designed to help solution providers maximize recurring revenue and unattached opportunities on service contract renewals of Cisco® products sold throughout the United States, Canada, and Latin America. Offered exclusively to Tech Data authorized?</ContentText>
+                        <WebPageURL>http://globenewswire.com/news-release/2014/04/01/623375/10074911/en/Tech-Data-Expands-Cisco-Services-Practice-With-SMARTattach-Opportunity-Portal.html?f=22&amp;fvtc=5&amp;fvtv=18074091</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-04-01T00:40:27-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Thailand Press Releases</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>LINKSYS RE-ENTERS BUSINESS WIRELESS NETWORKING MARKET</TitleText>
+                        <ContentText>Bangkok--1 Apr--PC &amp; Associates Consulting
+
+Linksys Business portfolio expanded with first Wi-Fi Access Points
+
+shortly after introducing first switches, VPN routers and IP surveillance products
+
+Linksys today announced the expansion of its business networking line-up with the first of its business grade wireless access points. The two new Linksys wireless-n access points are ideal for?</ContentText>
+                        <WebPageURL>http://www.thailand4.com/.it/2014-04-01/04a59a0abf9128db3ff808aaca5c1690/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-31T22:09:36-04:00</PublishedDateTimestamp>
+                        <SourceDescription>EnterpriseNetworkingPlanet</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <TitleText>HP Set to Deliver on SDN Vision</TitleText>
+                        <ContentText>HP announces availability of SDN security product originally known as Sentinel and new cloud managed Wi-Fi capabilities.
+
+LAS VEGAS. HP is now delivering a part of its previously announced SDN networking solution and expanding cloud management for Wi-Fi access points.
+
+The new HP Cloud Managed Network Wireless LAN solution will enable enterprises to manage their wireless</ContentText>
+                        <WebPageURL>http://www.enterprisenetworkingplanet.com/netsecur/hp-set-to-deliver-on-sdn-vision.html</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-31T21:04:33-04:00</PublishedDateTimestamp>
+                        <SourceDescription>IT Business</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <TitleText>Linksys rolls out SMB-focused routers and switches</TitleText>
+                        <ContentText>Linksys has launched new products geared towards businesses, unveiling two new dual-band wireless-AC access points and six new switches.
+
+Announcing the new products at the Interop show in Las Vegas, Linksys showed off two new 802.11 ac access points, which are designed for network administrators, resellers, and small to mid-sized businesses (SMBs).
+
+As an upgrade to older wireless-G or?</ContentText>
+                        <WebPageURL>http://www.itbusiness.ca/news/linksys-rolls-out-smb-focused-routers-and-switches/47757</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-31T20:21:19-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Pulse2</SourceDescription>
+                        <CategoryText>Funding</CategoryText>
+                        <CategoryText>Restructure</CategoryText>
+                        <TitleText>Cisco Systems rival Arista Networks for IPO</TitleText>
+                        <ContentText>Arista Networks is known for making network switches for large data centers. The company has filed for an IPO today and has listed Morgan Stanley and Citigroup as the lead underwriters for the offering. Arista could potentially raise $200 million from the IPO. Arista Networks is led by former Cisco executive Jayashree Ullal. Some of the companies customers include Facebook,</ContentText>
+                        <WebPageURL>http://pulse2.com/2014/03/31/cisco-systems-rival-arista-networks-for-ipo-107001/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-31T19:30:44-04:00</PublishedDateTimestamp>
+                        <SourceDescription>channel buzz.ca</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>HP enters the cloud-managed WiFi fray</TitleText>
+                        <ContentText>HP has jumped into the cloud -managed WiFi offering, announcing at Interop in Las Vegas that it will bring its own Cloud Managed Network products by the middle of the year.
+
+Cloud managed WiFi has been championed by companies like Meraki , which was purchased by Cisco in late 2012, and promises easier and more central management of a wireless network via a cloud-based interface, making</ContentText>
+                        <WebPageURL>http://www.channelbuzz.ca/2014/03/hp-enters-cloud-managed-wifi-fray-9197/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-31T19:19:46-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Tech Investor News</SourceDescription>
+                        <CategoryText>Funding</CategoryText>
+                        <CategoryText>Earnings Release</CategoryText>
+                        <CategoryText>Financial News</CategoryText>
+                        <CategoryText>General Industry</CategoryText>
+                        <CategoryText>Restructure</CategoryText>
+                        <TitleText>Cisco challenger Arista files for IPO; S-1 shows strong growth, profits</TitleText>
+                        <ContentText>Arista Networks, a maker of low-latency/high-density Ethernet switches aiming to upend Cisco's (CSCO +0.8%) dominant data center market position, has filed for a $200M IPO under the symbol ANET. Morgan Stanley and Citi are the lead underwriters.
+
+Arista's S-1 reveals the company had 2013 revenue of $361.2M (+87% Y/Y), and net income of $20.8M. Analysts previously estimated Arista's</ContentText>
+                        <WebPageURL>http://www.techinvestornews.com/Cisco/Latest-Cisco-News/cisco-challenger-arista-files-for-ipo-s-1-shows-strong-growth-profits</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-31T19:15:11-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Cisco Systems, Inc.</SourceDescription>
+                        <CategoryText>Wins</CategoryText>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Multimedios Redes Chooses Cisco DOCSIS Solution for Its Network</TitleText>
+                        <ContentText>Cisco announced today that MULTIMEDIOS REDES, a leading Mexican company offering triple play services - telephony, Internet and video - in the northern states of Nuevo Leon, Coahuila and Tamaulipas, has chosen the Cisco® DOCSISâ 3.0 solution. DOCSIS 3.0 next-generation cable access network is one of the key components of the Cisco IP Next Generation Network (IP NGN).</ContentText>
+                        <WebPageURL>http://newsroom.cisco.com/press-release-content?type=webcontent&amp;articleId=1402056</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-31T18:23:24-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Washington Technology</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>Merger And Acquisition</CategoryText>
+                        <TitleText>Mission alignment drives biggest deal of the year</TitleText>
+                        <ContentText>Cisco’s $2.7 billion acquisition of Sourcefire last October was driven in large part by a new paradigm in cyber security, a threat-centric approach that addresses the full attack continuum across ever-extending networks.
+
+What Sourcefire brought to Cisco was the technology, talent and innovation to bolster its portfolio of security products and services under the new model, Cisco</ContentText>
+                        <WebPageURL>http://washingtontechnology.com/articles/2014/03/30/manda-cisco-sourcefire.aspx</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-31T18:09:08-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Computer Dealer News</SourceDescription>
+                        <CategoryText>Reduction</CategoryText>
+                        <CategoryText>New Product</CategoryText>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>General Industry</CategoryText>
+                        <CategoryText>Expansion</CategoryText>
+                        <TitleText>New routers offer productivity boost for SMBs</TitleText>
+                        <ContentText>Networking equipment vendor Linksys used the Interop conference in Las Vegas to expand its business networking lineup with two new 802.11ac access points.
+
+The new offerings are aimed at business looking to upgrade their existing wireless infrastructure to the latest 802.11ac technology, and according to Linksys they offer up to three times faster speeds for connected devices over the</ContentText>
+                        <WebPageURL>http://www.computerdealernews.com/news/new-routers-offer-productivity-boost-for-smbs/32656</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-31T17:49:46-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Yahoo! Finance</SourceDescription>
+                        <CategoryText>Funding</CategoryText>
+                        <CategoryText>Restructure</CategoryText>
+                        <TitleText>This Woman Left Cisco To Lead A Powerful Startup And Is About To Have Her Pay Day</TitleText>
+                        <ContentText>Arista Networks, a company in the networking industry that just filed paperwork for an IPO , is worth watching.
+
+Arista was founded in 2005 and has been gaining momentum since 2008, when it lured away one of Cisco's top engineers, Jayshree Ullal, to be its CEO. Prior to Arista, Ullal ran Cisco's bread-and-butter routing, switching business, leading it to $10 billion in annual revenue.</ContentText>
+                        <WebPageURL>http://finance.yahoo.com/news/woman-left-cisco-lead-powerful-214115376.html</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-31T16:00:23-04:00</PublishedDateTimestamp>
+                        <SourceDescription>ContraCostaTimes</SourceDescription>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <TitleText>Cisco Systems focus of Russian bribery probe</TitleText>
+                        <ContentText>SAN JOSE -- Computer networking and communication giant Cisco Systems is at the center of a probe involving allegations that some of its workers bribed Russian officials to bolster its sales in that country.
+
+In a story Sunday about the allegations, online news site BuzzFeed said the San Jose corporation is being investigated by the U. S. Justice Department and U.S. Securities and</ContentText>
+                        <WebPageURL>http://www.contracostatimes.com/news/ci_25459730/cisco-systems-focus-russian-bribery-probe?source=rss</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-31T14:12:29-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Cisco Blog</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Cisco Volunteers Helping to Feed the Hungry</TitleText>
+                        <ContentText>Little known to most people, including residents of Houston, Texas, there is a peanut butter cannery here. The cannery is operated by the Church of Jesus Christ of Latter-day Saints and is capable of producing over 1 million jars of peanut butter a year.
+
+Thanks to the coordination efforts of Terry Edge, a Cisco Channels Manager, two teams of Cisco employee volunteers produced 12,595</ContentText>
+                        <WebPageURL>http://blogs.cisco.com/csr/cisco-volunteers-helping-to-feed-the-hungry-2/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-31T13:53:15-04:00</PublishedDateTimestamp>
+                        <SourceDescription>SiliconANGLE</SourceDescription>
+                        <CategoryText>Funding</CategoryText>
+                        <CategoryText>General Industry</CategoryText>
+                        <CategoryText>Restructure</CategoryText>
+                        <TitleText>Arista Networks files for IPO, ups the ante against Cisco</TitleText>
+                        <ContentText>Arista Networks, a Santa Clara-based maker of programmable Ethernet switches on a mission to dethrone Cisco, has finally filed the paperwork for its long-anticipated IPO. The firm did not disclose the number of shares to be sold or an expected price, and didn’t provide a date, but revealed that it’s looking to raise $200 million. Morgan Stanley and Citigroup are leading the</ContentText>
+                        <WebPageURL>http://siliconangle.com/blog/2014/03/31/arista-networks-files-for-ipo-ups-the-ante-against-cisco/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-31T13:22:20-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Softpedia</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <TitleText>Linksys Unveils a Pair of Dual-Band 802.11ac Access Points</TitleText>
+                        <ContentText>Wireless routers are all well and good, but they don't exactly have a very great range, especially when it comes to covering a whole floor in a business building. So wireless access points are needed sometimes, like the ones Linksys has just released.
+
+Called LAPAC1200 and LAPAC1750, they both support 802.11ac technology and communicate over both the 2.4 GHz and 5 GHz bands.
+
+The</ContentText>
+                        <WebPageURL>http://news.softpedia.com/news/Linksys-Unveils-a-Pair-of-Dual-Band-802-11ac-Access-Points-435031.shtml</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-31T12:16:25-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Net Security</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <TitleText>New Linksys dual-band Wireless-AC Access Points released</TitleText>
+                        <ContentText>Linksys expanded its business networking line-up with two new 802.11ac access points which allow network administrators, resellers and businesses to deploy a high-speed wireless network or upgrade their existing wireless infrastructure to the latest 802.11ac technology.</ContentText>
+                        <WebPageURL>http://www.net-security.org/secworld.php?id=16604</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-31T12:00:21-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Ostatic</SourceDescription>
+                        <CategoryText>Reduction</CategoryText>
+                        <CategoryText>General Industry</CategoryText>
+                        <CategoryText>Expansion</CategoryText>
+                        <TitleText>Cisco to Follow the Open Road in Building Out its Intercloud</TitleText>
+                        <ContentText>In late March, Cisco Systems announced that it plans to invest more than $1 billion to expand its cloud business in the next two years, including building an OpenStack-based Intercloud , described as a "network of clouds," with several partners. The Cisco global Intercloud is being built for the Internet of Everything, with real-time analytics, “near infinite” scalability and full</ContentText>
+                        <WebPageURL>http://ostatic.com/blog/cisco-to-follow-the-open-road-in-building-out-its-intercloud</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-31T04:34:09-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Zawya</SourceDescription>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Mobily, Cisco enter into joint marketing, sales agreement</TitleText>
+                        <ContentText>Cisco and Mobily, the official brand name of Etihad Etisalat and a leading mobile and data service provider in Saudi Arabia, announced Sunday that they have signed a joint marketing and sales agreement following a Memorandum of Understanding signed by both companies, on Sept. 17, 2013, to strategically collaborate and streamlines Cisco and Mobily's competitive resources creating a joint?</ContentText>
+                        <WebPageURL>http://www.zawya.com/story/Mobily_Cisco_enter_into_joint_marketing_sales_agreement-ZAWYA20140331042637/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-30T10:37:04-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Eye of Riyadh</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Cisco Announces Platinum Sponsorship for COMEX Oman 2014</TitleText>
+                        <ContentText>Cisco announced today its sponsorship for the 5th annual COMEX Oman Forum, the Sultanate’s leading ICT Show, where it will return to showcase ICT innovation around the theme of “Tomorrow Starts Here”. Cisco will serve as Platinum Sponsor for COMEX 2014 which runs this year from 7th -11th April 2014 at the Oman International Exhibition Centre.</ContentText>
+                        <WebPageURL>http://www.eyeofriyadh.com/news/details/cisco-announces-platinum-sponsorship-for-comex-oman-2014</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-30T03:31:12-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Computer Dealer News</SourceDescription>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Cisco’s partner organization chief looks to build is own legacy</TitleText>
+                        <ContentText>LAS VEGAS - Bruce Klein , senior vice president of Cisco’s Worldwide Partner Organization, follows in the footsteps of Keith Goodwin and before him Paul Mountford .
+
+Mountford was the executive along with Cisco channel chief Edison Peres who crafted one of the most progressive channel strategies in the IT industry: the Value Incentive Program VIP. This program is currently in its 22nd</ContentText>
+                        <WebPageURL>http://www.computerdealernews.com/news/ciscos-partner-organization-chief-looks-to-build-is-own-legacy/32642</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-29T04:13:36-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Computer World</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>There's no bubble in business Wi-Fi, Aerohive CEO says</TitleText>
+                        <ContentText>David Flynn sees a growing need for dense Wi-Fi networks with cloud-based management
+
+IDG News Service - Aerohive Networks sells not just enterprise Wi-Fi gear but also cloud-based software designed to make it easier to set up and manage a customer's entire wired and wireless network. Other wireless LAN vendors are moving in the same direction, including Cisco Systems, the biggest seller</ContentText>
+                        <WebPageURL>http://www.computerworld.com/s/article/9247290/There_39_s_no_bubble_in_business_Wi_Fi_Aerohive_CEO_says?source=rss_+financialit</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-28T19:05:52-04:00</PublishedDateTimestamp>
+                        <SourceDescription>NewsFactor Business</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Cisco, IBM Launch Internet of Things Consortium | NewsFactor Business</TitleText>
+                        <ContentText>The Internet of Things has made plenty of headlines lately, but this one is huge: Cisco, IBM, GE and AT&amp;T have formed the Industrial Internet Consortium, aiming to break down proprietary barriers.
+
+Facebook CEO Mark Zuckerberg's vision of bringing Internet to remote areas involves satellites, lasers and drones. He just bought a firm pioneering in solar-powered unmanned craft to</ContentText>
+                        <WebPageURL>http://business.newsfactor.com/?story_id=130008NXXKBC</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-28T17:06:32-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Basics Media</SourceDescription>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <CategoryText>Merger And Acquisition</CategoryText>
+                        <TitleText>Cisco Systems, Inc. (NASDAQ:CSCO): Patent Infringement Suit by Patent Troll Spherix</TitleText>
+                        <ContentText>Tomahawk, WI 03/28/2014 (Basicsmedia) – Technology companies have been fighting the menace of ‘patent trolls’ in recent years. Now, it’s Cisco Systems, Inc. (NASDAQ:CSCO)’s turn.
+
+The neutral term for patent trolls is ‘non practicing entities.’ The modus operandi of these NPEs can amount to a form of extortion where they seek fat licensing fees from operating companies for patents the</ContentText>
+                        <WebPageURL>http://basicsmedia.com/cisco-systems-inc-nasdaqcsco-patent-infringement-suit-by-patent-troll-spherix-9034?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=cisco-systems-inc-nasdaqcsco-patent-infringement-suit-by-patent-troll-spherix</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-28T16:59:04-04:00</PublishedDateTimestamp>
+                        <SourceDescription>The VAR Guy</SourceDescription>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <CategoryText>Merger And Acquisition</CategoryText>
+                        <TitleText>Spherix Targets Cisco with Patent Infringement Allegations</TitleText>
+                        <ContentText>Spherix, which acquired several Nortel patents in December 2013, is taking legal action against Cisco Systems, alleging Cisco is infringing on 11 patents currently owned by Spherix.
+
+In the midst of its Partner Summit, Cisco Systems (CSCO) is finding itself the target of a patent infringement lawsuit stemming from one of the many companies that acquired the assets of Nortel Networks . ?</ContentText>
+                        <WebPageURL>http://thevarguy.com/value-added-reseller-information-technology-networking/032814/spherix-targets-cisco-patent-infringement-all</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-28T16:21:17-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Gartner, Inc.</SourceDescription>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Cisco Launches Its Cloud Business With a Bold Strategic Shift to Services</TitleText>
+                        <ContentText>Cisco's plan to deliver a Cisco Powered cloud platform and services that will be available from multiple partners puts the IT world on notice that it will now become a cloud services provider as well as an equipment supplier.
+
+On 24 March 2014, Cisco announced it will become a service provider through a global public cloud strategy, and that it will partner with service providers and its</ContentText>
+                        <WebPageURL>https://www.gartner.com/doc/2694017</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-28T14:20:44-04:00</PublishedDateTimestamp>
+                        <SourceDescription>NewsFactor.com</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Cisco, IBM Launch Internet of Things Consortium</TitleText>
+                        <ContentText>The Industrial Internet Consortium's goal is to deliver best practices, reference architectures, case studies and standards requirements to ease deployment of connected technologies for the Internet of Things. The open-membership group also plans to influence the global standards development process for Internet and industrial systems.
+
+The concept of the Internet of Things has been</ContentText>
+                        <WebPageURL>http://www.newsfactor.com/story.xhtml?story_id=92108</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-28T11:36:35-04:00</PublishedDateTimestamp>
+                        <SourceDescription>MicroScope</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>Merger And Acquisition</CategoryText>
+                        <TitleText>Cisco aims for more managed, professional services revenue for partners</TitleText>
+                        <ContentText>LAS VEGAS -- Selling Cisco services has been big business for the vendor and upward of 90% of its partners -- to the tune of $2.5 billion in revenue from Smart Services technical support alone. Moving up from these foundation services to the broader portfolio of Smart Services , such as Cloud Discovery Services, Connected Mobile Experience, Data Virtualization and Collaboration Services,</ContentText>
+                        <WebPageURL>http://searchitchannel.techtarget.com/news/2240217042/Cisco-aims-for-more-managed-professional-services-revenue-for-partners</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-28T03:03:42-04:00</PublishedDateTimestamp>
+                        <SourceDescription>RCR Wireless News</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>AT&amp;T, Cisco, GE, IBM and Intel form consortium for IoT</TitleText>
+                        <ContentText>Five major players in telecom and industry are joining forces to accelerate interoperability in the development of the Internet of Things through industrial Internet applications.
+
+AT&amp;T, Cisco, GE, IBM and Intel have formed the Industrial Internet Consortium (IIC) , which is an open membership, not-for-profit group that plans to “take the lead in establishing interoperability across</ContentText>
+                        <WebPageURL>http://www.rcrwireless.com/article/20140328/m2m/att-cisco-ge-ibm-and-intel-form-consortium-for-iot/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-27T22:58:49-04:00</PublishedDateTimestamp>
+                        <SourceDescription>U.S. Securities and Exchange Commission</SourceDescription>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <TitleText>CISCO SYSTEMS, INC.: 8-K Filing 2014-03-26</TitleText>
+                        <ContentText>Form 8-K
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+FORM 8-K
+CURRENT REPORT
+Pursuant to Section 13 or 15(d)
+of the Securities Exchange Act of 1934
+Date of report (Date of earliest event reported): March 21, 2014
+CISCO SYSTEMS, INC.
+(Exact Name of Registrant as Specified in Charter)
+California
+(State or Other Jurisdiction of</ContentText>
+                        <WebPageURL>http://www.sec.gov/Archives/edgar/data/858877/000119312514116588/d700371d8k.htm</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-27T22:15:55-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Cisco Blog</SourceDescription>
+                        <CategoryText>Executive Announcement</CategoryText>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>Management Change</CategoryText>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Cisco Partner Summit Day 3: That’s a Wrap</TitleText>
+                        <ContentText>With day one and day two of Cisco Partner Summit complete Bruce Klein, Senior Vice President of Worldwide Partner Organization opened day three by recapping the amazing parties from the night before, with EMEAR taking top honors for best party this year.
+
+We got the chance to catch up with partners to hear their perspectives on today’s General Session. Here’s what they had to</ContentText>
+                        <WebPageURL>http://blogs.cisco.com/channels/cisco-partner-summit-day-3-thats-a-wrap/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-27T22:12:03-04:00</PublishedDateTimestamp>
+                        <SourceDescription>iTWire</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Cisco to build billion dollar ‘Intercloud’ with Telstra a key partner</TitleText>
+                        <ContentText>Cisco says it and its partners will build a global network of clouds, the next phase in cloud computing and a key enabler of the Internet of Everything.
+
+It will build the ‘Intercloud’ – a network of clouds – together with a set of partners, including Telstra. It will cost over US$1 billion.
+
+Cisco says the global Intercloud is being architected for the Internet of Everything, with</ContentText>
+                        <WebPageURL>http://www.itwire.com/business-it-news/cloud/63561-cisco-to-build-billion-dollar-%E2%80%98intercloud%E2%80%99-with-telstra-a-key-partner</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-27T19:07:22-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Tech Investor News</SourceDescription>
+                        <CategoryText>General Industry</CategoryText>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>With Intercloud, Cisco Ends Role as Arms Dealer (Redmond Channel Partner | Blogs)</TitleText>
+                        <ContentText>When it comes to cloud, Cisco just shifted from acting as an "arms dealer" to becoming a cloud services provider in its own right, according to analysts at Technology Business Research (TBR).</ContentText>
+                        <WebPageURL>http://www.techinvestornews.com/Cisco/Latest-Cisco-News/with-intercloud-cisco-ends-role-as-arms-dealer</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-27T17:30:32-04:00</PublishedDateTimestamp>
+                        <SourceDescription>IT Pro Portal</SourceDescription>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Cisco, IBM and Intel aim for Industry Internet of Things adoption through new non-profit</TitleText>
+                        <ContentText>A new non-profit has been launched that is working towards boosting the fortunes of the industrial Internet of Things [IoT] sector.
+
+The Industry Internet Consortium [IIC], launched by AT&amp;T, Cisco, GE, IBM and Intel, has a mandate to improve integration between physical and digital worlds, and it’s hoped the adoption of industrial Internet applications will help to hasten the IoT</ContentText>
+                        <WebPageURL>http://www.itproportal.com/2014/03/27/cisco-ibm-and-intel-aim-industry-internet-things-adoption-through-new-non-profit/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-27T16:29:51-04:00</PublishedDateTimestamp>
+                        <SourceDescription>IT BusinessEdge Blogs</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Cisco Pushes Nexus Switch Bandwidth Higher</TitleText>
+                        <ContentText>Cisco advanced its case for converging the management of the data center operations around its servers and switches with the announcement this week of a new high-end series of switches that support 10/40G Ethernet aggregation today and 40/100G aggregations tomorrow.
+
+Announced at the Cisco Partner 2014 Summit , Todd Brannon, director of product marketing for unified computing at Cisco,</ContentText>
+                        <WebPageURL>http://www.itbusinessedge.com/blogs/it-unmasked/cisco-pushes-nexus-switch-bandwidth-higher.html</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-27T15:22:57-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Cisco Systems, Inc.</SourceDescription>
+                        <CategoryText>Wins</CategoryText>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Cisco Supplied Network Infrastructure During Nuclear Security Summit in The Hague</TitleText>
+                        <ContentText>Cisco supplied the network infrastructure for the  Nuclear Security Summit 2014  (NSS), held in The Hague on 24 and 25 March. Cisco was awarded the contract by SSC-ICT Haaglanden after submitting a tender that offered the best combination of price and quality.</ContentText>
+                        <WebPageURL>http://newsroom.cisco.com/press-release-content?type=webcontent&amp;articleId=1374806</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-27T15:00:12-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Value Investing</SourceDescription>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <CategoryText>Merger And Acquisition</CategoryText>
+                        <TitleText>Cisco Systems, Inc. (CSCO) Sued By Spherix</TitleText>
+                        <ContentText>Spherix Inc ( NASDAQ:SPEX ), an intellectual property company, filed a lawsuit against computer networking giant, Cisco Systems, Inc. ( NASDAQ:CSCO ) for allegedly infringing on 11 patents it acquired from Nortel Networks Corporation (OTCMKTS:NRTLQ) in December last year.
+
+According to Spherix Inc ( NASDAQ:SPEX ), the patent infringement accounts for the majority of the $43 billion</ContentText>
+                        <WebPageURL>http://www.valuewalk.com/2014/03/cisco-systems-inc-csco-sued-by-spherix/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-27T12:16:48-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Comms Dealer</SourceDescription>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Cisco upgrades partner programme</TitleText>
+                        <ContentText>Cisco is transforming its existing channel partner and services programme into new Cisco Partner Ecosystem to better support partners on their way to cloud and help them benefit from market opportunities, it says.
+
+The upgraded Cisco Partner Ecosystem strives to win a broader set of partners, in particular ISVs, consulting firms, technology and Internet of Things partners, it says.
+
+?</ContentText>
+                        <WebPageURL>http://www.comms-dealer.com/industry-news/cisco-upgrades-partner-programme</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-27T12:11:02-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Tech Data Corporation</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>Awards</CategoryText>
+                        <TitleText>Tech Data Named Global and U.S. Distributor of the Year at the 2014 Cisco Partner Summit</TitleText>
+                        <ContentText>CLEARWATER, Fla., March 27, 2014 (GLOBE NEWSWIRE) -- Tech Data Corporation (Nasdaq:TECD) today announced that it received two Cisco® Partner Summit awards for Global Distributor of the Year and U.S. Distributor of the Year. The awards were presented at the 2014 Cisco Partner Summit held this week at the Venetian Resort Hotel Casino in Las Vegas, Nev. Tech Data was recognized by Cisco for</ContentText>
+                        <WebPageURL>http://tecd.client.shareholder.com/releasedetail.cfm?ReleaseID=836085</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-27T08:25:30-04:00</PublishedDateTimestamp>
+                        <SourceDescription>V3.co.uk</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <TitleText>Cisco patches six security flaws that posed DoS cyber attack risk</TitleText>
+                        <ContentText>Cisco has plugged six flaws in its Internetwork Operating System (IOS) Software that could theoretically be exploited by hackers to launch cyber attacks on its customers.
+
+Cisco released the fixes in its IOS Software Security Advisory Bundled Publication. The update features five fixes for its IOS Software and a single patch for its Cisco 7600 Series Route Switch Processor 720 with 10</ContentText>
+                        <WebPageURL>http://www.v3.co.uk/v3-uk/news/2336643/cisco-patches-six-security-flaws-that-posed-dos-cyber-attack-risk</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-27T07:03:57-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Reuters</SourceDescription>
+                        <CategoryText>Bankruptcy</CategoryText>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <CategoryText>Merger And Acquisition</CategoryText>
+                        <TitleText>Spherix sues Cisco over switches, routers patent infringement</TitleText>
+                        <ContentText>March 27 (Reuters) - Spherix Inc, which buys and licenses technology patents, said it filed a lawsuit against Cisco Inc alleging infringement of 11 patents Spherix acquired from Nortel Networks.
+
+Spherix said the infringement accounted for a "vast majority" of Cisco's more than $43 billion in sales of routers and switches in the United States over the five years ended July 27, 2013.
+
+?</ContentText>
+                        <WebPageURL>http://www.reuters.com/article/2014/03/27/cisco-lawsuit-idUSL4N0MO2PC20140327</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-27T06:30:53-04:00</PublishedDateTimestamp>
+                        <SourceDescription>StreetInsider.com</SourceDescription>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <CategoryText>Merger And Acquisition</CategoryText>
+                        <TitleText>Spherix (SPEX) Sues Cisco (CSCO) Over Alleged Patent Infringement</TitleText>
+                        <ContentText>Spherix Incorporated (Nasdaq: SPEX ) announced that it has commenced patent litigation in the United States District Court for the District of Delaware against Cisco Incorporated (Nasdaq: CSCO ) alleging that the San Jose, CA based company infringes 11 patents owned by Spherix. These patents, developed by inventors at Nortel Networks and acquired by Spherix in December 2013, relate to</ContentText>
+                        <WebPageURL>http://www.streetinsider.com/Corporate+News/Spherix+%28SPEX%29+Sues+Cisco+%28CSCO%29+Over+Alleged+Patent+Infringement/9321435.html</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-27T02:09:15-04:00</PublishedDateTimestamp>
+                        <SourceDescription>C114</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Cisco makes $1B bet on the cloud</TitleText>
+                        <ContentText>Cisco is making a bold bet to become a larger player in the burgeoning cloud market with plans to invest $1 billion to build what it calls a global Intercloud--a network of clouds.
+
+Working with service provider and network infrastructure partners such as Allstream and Telstra (ASX: TLS.AX), which will provide data center and other related assets, the vendor said its Cisco Cloud Services</ContentText>
+                        <WebPageURL>http://www.cn-c114.net/583/a827869.html</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-26T23:28:38-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Wall Street PR</SourceDescription>
+                        <CategoryText>General Industry</CategoryText>
+                        <TitleText>Cisco Systems, Inc. (NASDAQ:CSCO): NSA Proof Cloud Computing</TitleText>
+                        <ContentText>Boston, MA 03/26/2014 (wallstreetpr) - The new $1 billion investment in cloud computing disclosed by Cisco Systems, Inc. (NASDAQ:CSCO) is part of the response by corporate America and companies around the world to secure their data in the face of the spying activities of the NSA. The need for data security has created opportunities that Cisco wants to leverage.
+
+Cisco plans to build</ContentText>
+                        <WebPageURL>http://wallstreetpr.com/cisco-systems-inc-nasdaqcsco-nsa-proof-cloud-computing-18142</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-26T20:03:44-04:00</PublishedDateTimestamp>
+                        <SourceDescription>MicroScope</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Cisco pushes partners towards enterprise mobility at Partner Summit</TitleText>
+                        <ContentText>Cisco announced a number of enhancements to its mobility business at Partner Summit 2014 in Las Vegas on Wednesday, as it continues its attempt to push the channel towards software, the Internet of Everything , and the need to address the Line of Business (LOB) buyers increasingly bypassing IT departments and CIOs.
+
+Discussing the $35bn opportunity around mobility – a stat that includes?</ContentText>
+                        <WebPageURL>http://www.microscope.co.uk/news/2240216979/Cisco-pushes-partners-towards-enterprise-mobility-at-Partner-Summit</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-26T19:23:19-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Tech Investor News</SourceDescription>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Cisco Fully Enters the Cloud Market – The Intercloud</TitleText>
+                        <ContentText>Jason Nash comments on his blog: Today Cisco announced that they were investing $1B over the next two years to expand their “Cisco Powered” cloud initiative. For those that aren’t aware the Cisco Powered Cloud program is one that allows service providers to build hosting environments on top of Cisco equipment in exchange for incentives, marketing, etc. […]
+
+Jason Nash comments on his?</ContentText>
+                        <WebPageURL>http://www.techinvestornews.com/Cloud/Cloud-Tech-Bloggers/cisco-fully-enters-the-cloud-market-the-intercloud</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-26T17:00:30-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Slashdot</SourceDescription>
+                        <CategoryText>Bankruptcy</CategoryText>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <TitleText>Owner of Nortel Patents Sues Cisco For 'Immense' Patent Infringement</TitleText>
+                        <ContentText>jfruh (300774) writes "The venerable Nortel Networks may have vanished into bankruptcy five years ago, but thanks to U.S. patent law, it can strike back at its old rival Cisco from beyond the grave. Spherix, a Virginia-based 'research company' that bought Nortel's patents in 2009, has filed a federal lawsuit claiming that Cisco has been knowingly violating 11 Nortel patents . 'The</ContentText>
+                        <WebPageURL>http://yro.slashdot.org/story/14/03/26/2013217/owner-of-nortel-patents-sues-cisco-for-immense-patent-infringement?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-26T16:46:06-04:00</PublishedDateTimestamp>
+                        <SourceDescription>The VAR Guy</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Live Blog: Cisco Launches Enterprise Mobility App Platform</TitleText>
+                        <ContentText>Cisco's new Enterprise Mobility Services Platform plus 802.11ac WiFi push seeks to empower partners and service providers with an enterprise app strategy.
+
+At Cisco Partner Summit 2014 , the networking giant is trying to flex some mobility muscle, especially when it comes to enterprise mobile app development for channel partners. Key to the strategy: Cisco's new Enterprise Mobility</ContentText>
+                        <WebPageURL>http://thevarguy.com/mobile-device-management-software-solutions/032614/live-blog-cisco-launches-enterprise-mobility-app-platfor</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-26T16:46:18-04:00</PublishedDateTimestamp>
+                        <SourceDescription>The VAR Guy</SourceDescription>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Cisco Unveils Partner Program Update at Partner Summit</TitleText>
+                        <ContentText>Cisco Systems announced updates to its channel partner program at Cisco Partner Summit 2014 in Las Vegas. The networking company unveiled changes to its certifications, specializations and incentives.
+
+The Cisco Systems Channel Partner Program is evolving again to further enable and reward partners for adopting and bringing to market new networking consumption models and seeking out</ContentText>
+                        <WebPageURL>http://thevarguy.com/value-added-reseller-information-technology-networking/032614/cisco-unveils-partner-program-update-partner-</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-26T16:45:41-04:00</PublishedDateTimestamp>
+                        <SourceDescription>The VAR Guy</SourceDescription>
+                        <CategoryText>Earnings Release</CategoryText>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>Financial News</CategoryText>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Monetizing the Internet of Things: Will Cisco, IBM or Oracle Partners Win?</TitleText>
+                        <ContentText>The Internet of Things -- which Cisco dubs the Internet of Everything -- generates lots of noise. But can it generate money?
+
+Can the Internet of Things -- which Cisco calls The Internet of Everything -- generate profit and revenue growth for channel partners and service providers? Cisco Partner Summit 2014 offered some hype -- and clues.
+
+The Internet of Everything ( Cisco 's</ContentText>
+                        <WebPageURL>http://thevarguy.com/cloud-computing-services-and-business-solutions/032614/monetizing-internet-everything-can-cisco-partners-do</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-26T15:50:38-04:00</PublishedDateTimestamp>
+                        <SourceDescription>The Register</SourceDescription>
+                        <CategoryText>Funding</CategoryText>
+                        <CategoryText>Restructure</CategoryText>
+                        <TitleText>Speaking in Tech: GitHub users did WHAT to AWS' backend?</TitleText>
+                        <ContentText>Hosted by Greg Knieriemen, Ed Saipetch and Sarah Vela. This week, Eddie is still missing so Greg and Sarah are joined by Cisco's J Metz to dig into the new Cisco public cloud and to chew on the tech news of the week.
+
+Cisco jumps into the public cloud (8:20)
+
+Customer first, tricky dick second (13:25)
+
+Box.net files for an odd IPO (16:50)
+
+Anyone remember Xdrive? (20:30)
+
+GitHub</ContentText>
+                        <WebPageURL>http://www.theregister.co.uk/2014/03/26/speaking_in_tech_episode_102/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-26T15:16:55-04:00</PublishedDateTimestamp>
+                        <SourceDescription>CloudTimes</SourceDescription>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Cisco to Invest One Billion to Build World’s Largest Cloud Infrastructure</TitleText>
+                        <ContentText>As businesses adopt private, public and hybrid clouds for cost-effectively and quickly deliver applications and services, Cisco announced plans to build the world a network of larger global Intercloud clouds . Together with strategic partners and service providers, Cisco global Intercloud is being architected for the Internet of Everything.
+
+The project is designed for distributed</ContentText>
+                        <WebPageURL>http://cloudtimes.org/2014/03/26/cisco-to-invest-one-billion-to-build-worlds-largest-cloud-infrastructure/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-26T14:59:03-04:00</PublishedDateTimestamp>
+                        <SourceDescription>FierceTelecom</SourceDescription>
+                        <CategoryText>General Industry</CategoryText>
+                        <TitleText>Infinera, Fujitsu, Cisco, Ciena, and Huawei top Infonetics' new optical networking vendor scorecard</TitleText>
+                        <ContentText>Boston, MASSACHUSETTS, March 25, 2014-Market research firm Infonetics Research released excerpts from its new Optical Network Hardware Vendor Scorecard, which profiles, analyzes, and ranks the 10 largest global vendors of optical transport equipment: Alcatel-Lucent, Ciena, Cisco, Coriant, ECI Telecom, Fujitsu, Huawei, Infinera, NEC, and ZTE.
+
+The 30-page scorecard evaluates vendors</ContentText>
+                        <WebPageURL>http://www.fiercetelecom.com/press-releases/infinera-fujitsu-cisco-ciena-and-huawei-top-infonetics-new-optical-networki</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-26T13:00:35-04:00</PublishedDateTimestamp>
+                        <SourceDescription>channel buzz.ca</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Cisco plans recruiting binge for solution partners</TitleText>
+                        <ContentText>LAS VEGAS – The Cisco partner community tent is about to get a little more crowded.
+
+At its annual Partner Summit here, Bruce Klein, senior vice president of the company’s Worldwide Partner Organization, announced the launch of a new Solution Partner program for ISVs, consultants, and other classes of partners that don’t fit into the typical reseller/solution provider model of its?</ContentText>
+                        <WebPageURL>http://www.channelbuzz.ca/2014/03/cisco-recruiting-binge-solution-partners-9173/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-26T12:14:56-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Cisco Blog</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <TitleText>Cisco’s 802.11ac Portfolio Expands with the New Cisco Aironet 2700 AP</TitleText>
+                        <ContentText>As a Product Manager there is some anxiety but more of an excitement around introducing a platform to the market. Today I am proud to be part of Cisco team that is bringing to market the Cisco Aironet 2700 Series Access Point . What it offers is a tremendous amount of power at a very attractive price point.
+
+We all know Wi-Fi is here to stay and is expanding all around us rapidly.</ContentText>
+                        <WebPageURL>http://blogs.cisco.com/wireless/ciscos-802-11ac-portfolio-expands-with-the-new-cisco-aironet-2700-ap/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-26T12:00:34-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Market Wire</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Cisco Makes Gigabit Wi-Fi More Affordable With New 802.11ac Product</TitleText>
+                        <ContentText>LAS VEGAS, NV--(Marketwired - Mar 26, 2014) - Cisco Partner Summit -- Cisco (NASDAQ: CSCO ) today introduced an addition to its 802.11ac access point portfolio, priced economically for partners and customers, supporting the next-generation Wi-Fi standard (802.11ac). The 802.11ac-enabled Cisco Aironet 2700 Series Access Point will help partners seize huge mobility opportunities while</ContentText>
+                        <WebPageURL>http://www.marketwired.com/press-release/cisco-makes-gigabit-wi-fi-more-affordable-with-new-80211ac-product-nasdaq-csco-1892725.htm</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-26T11:18:00-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Empowered News</SourceDescription>
+                        <CategoryText>Merger And Acquisition</CategoryText>
+                        <TitleText>Cisco Systems Inc To Invest In Cloud Computing</TitleText>
+                        <ContentText>A pledge of $1 billion was made by Cisco Systems Inc in the next two years as the company indicated that it aims to join the market currently dominated by Amazon.com Inc. The company will use the amount in creating data centers that will facilitate the operation of Cisco Cloud Services news service.
+
+The company aims to make the most of the desire of companies is renting computing</ContentText>
+                        <WebPageURL>http://empowerednews.net/cisco-systems-inc-to-invest-in-cloud-computing/1848579/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-26T10:48:48-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Channel Nomics</SourceDescription>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Cisco Says Cloud Initiative Not a Direct Play</TitleText>
+                        <ContentText>Cisco Systems Inc. is to invest $1 billion in pursuit of becoming the world’s leading hybrid cloud player, including the construction of “the world’s largest intercloud.” The vendor will be selling its enlarged Cisco Cloud Services portfolio directly, but has asserted that “the vast majority” of sales will still go through partners, and denies its cloud plans represent a “covert direct?</ContentText>
+                        <WebPageURL>http://channelnomics.com/2014/03/25/cisco-1-b-cloud-play-covert-direct-strategy/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-26T04:00:22-04:00</PublishedDateTimestamp>
+                        <SourceDescription>MSP News</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <TitleText>Cisco’s Cloud and Managed Service Provider Channel- It all Becomes Clear Now</TitleText>
+                        <ContentText>While this story was announced on the Wall Street Journal to the outside world, for those of us in the channel the news that Cisco plans to develop its own cloud computing service offering to enterprise customers should not be a surprise.
+
+Cisco executives have been attending MSPWorld and MSPAlliance events for the last few years, talking to MSPs about the future of cloud and the role</ContentText>
+                        <WebPageURL>http://www.mspnews.com/2014/03/25/ciscos-cloud-and-the-managed-service-provider-channel-it-all-becomes-clear-now/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-26T03:16:16-04:00</PublishedDateTimestamp>
+                        <SourceDescription>PRWeb</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>With DaaS Certification, Netelligent Achieves Trifecta</TitleText>
+                        <ContentText>NETELLIGENT Corporation, a technology solutions company, announced today that it has achieved the Cisco Powered Desktop as a Service (DaaS) Certification. This completes its third Cisco Powered Cloud Services designation, as Netelligent has already earned Cisco Powered Private Cloud (IaaS) and Cisco Powered Hosted Collaboration Solution (HCS) designations.
+
+In order to achieve a Cisco</ContentText>
+                        <WebPageURL>http://www.prweb.com/releases/2014/03/prweb11698540.htm</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-26T01:29:50-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Seeking Alpha</SourceDescription>
+                        <CategoryText>Earnings Release</CategoryText>
+                        <CategoryText>Financial News</CategoryText>
+                        <TitleText>Cisco's Head Is In The Clouds</TitleText>
+                        <ContentText>Cisco is making a push into the cloud.
+
+Move will not help declining revenues in the short term.
+
+Investors should look at the name as a capital return story for now.
+
+This low growth picture equals a low valuation for Cisco.
+
+When it comes to large cap technology, one name that is struggling in terms of revenue growth is Cisco Systems ( CSCO ). The networking giant is in the</ContentText>
+                        <WebPageURL>http://seekingalpha.com/article/2109083-ciscos-head-is-in-the-clouds?source=feed</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-26T01:04:07-04:00</PublishedDateTimestamp>
+                        <SourceDescription>MySA.com</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Technology Specialists Inc. (TSI) Achieves Cisco TelePresence Certification</TitleText>
+                        <ContentText>Technology Specialists, Inc. recently attained the Cisco TelePresence Certification from Cisco Systems Inc. TSI can now sell, install, and support Cisco TelePresence Video products and services. Technology Specialists Inc. (TSI) , a leading integrator and provider of unified communications (UC) solutions, announced that it has achieved the Cisco TelePresence Certification.</ContentText>
+                        <WebPageURL>http://www.mysanantonio.com/business/press-releases/article/Technology-Specialists-Inc-TSI-Achieves-Cisco-5348874.php</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-26T01:02:09-04:00</PublishedDateTimestamp>
+                        <SourceDescription>The Hindu Business Line</SourceDescription>
+                        <CategoryText>Earnings Release</CategoryText>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>Financial News</CategoryText>
+                        <TitleText>Next Govt must usher ‘predictability’, generate investments in India: Cisco CEO</TitleText>
+                        <ContentText>Technology major Cisco expects to more than double revenues from India within the next 5 years even as it hopes that the next Government will usher in more ‘predictability’ in the country.
+
+The $49-billion company wants India revenues to account for five per cent of overall revenues from less than two per cent currently, John Chambers, Chairman and Chief Executive Officer, said.
+
+“I</ContentText>
+                        <WebPageURL>http://www.thehindubusinessline.com/companies/next-govt-must-usher-predictability-generate-investments-in-india-cisco-ceo/article5833739.ece</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T22:11:54-04:00</PublishedDateTimestamp>
+                        <SourceDescription>IT World</SourceDescription>
+                        <CategoryText>Bankruptcy</CategoryText>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <CategoryText>Merger And Acquisition</CategoryText>
+                        <TitleText>Spherix sues Cisco for 'immense' patent infringement</TitleText>
+                        <ContentText>The company bought Nortel patents and says Cisco is using the technology
+
+March 25, 2014, 8:59 PM — A company that bought Nortel patents is suing Cisco Systems, alleging "immense" infringement by the network vendor's switches, routers and other products.
+
+The plaintiff, Spherix, is based in Virginia and says it began in 1967 as a research company focused on biotech. It purchased the</ContentText>
+                        <WebPageURL>http://www.itworld.com/it-management/411566/spherix-sues-cisco-immense-patent-infringement</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T20:02:51-04:00</PublishedDateTimestamp>
+                        <SourceDescription>MicroScope</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <TitleText>Cisco launches cloud services, Intercloud network at Partner Summit</TitleText>
+                        <ContentText>Having made its name building the backbone of the Internet twenty years ago, Cisco turned its attention to the backbone of the cloud on the opening day of its 2014 Partner Summit in Las Vegas, launching Cisco Cloud Services and pledging a billion dollar investment over two years to construct the world’s largest global Intercloud, or cloud network, with partners at the heart of its?</ContentText>
+                        <WebPageURL>http://www.microscope.co.uk/news/2240216883/Cisco-launches-cloud-services-Intercloud-network-at-Partner-Summit</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T19:18:20-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Tech Investor News</SourceDescription>
+                        <CategoryText>Bankruptcy</CategoryText>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <TitleText>Spherix sues Cisco over "immense" patent infringement</TitleText>
+                        <ContentText>Historically, Spherix has focused on biotech R&amp;D, but obtained the IP
+
+which was invented by Nortel - following an agreement with the Rockstar consortium that bought the patents from the bankrupt Canadian company.
+
+"The scope of Cisco’s infringement of the asserted patents has been and continues to be immense," Spherix writes. "The vast majority of Cisco’s switching and routing</ContentText>
+                        <WebPageURL>http://www.techinvestornews.com/Cisco/Latest-Cisco-News/spherix-sues-cisco-over-immense-patent-infringement</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T19:18:33-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Tech Investor News</SourceDescription>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Cisco Plans to Build a Giant Cloud Network, But Why on OpenStack</TitleText>
+                        <ContentText>Cisco's decision to build an intercloud for its channel partners and resellers on the OpenStack open source framework is a good idea since it will allow resellers to build out their own cloud networks at minimal cost.</ContentText>
+                        <WebPageURL>http://www.techinvestornews.com/Cisco/Latest-Cisco-News/cisco-plans-to-build-a-giant-cloud-network-but-why-on-openstack</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T18:13:28-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Valley Wonk - Light Reading</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>General Industry</CategoryText>
+                        <TitleText>Cisco's Cloud Bet: What's in It for SPs?</TitleText>
+                        <ContentText>Service providers struggling to implement a cloud strategy can look to a buddy for help. Cisco wants to be that buddy. Cisco this week introduced Intercloud, a strategy to enter partnerships with service providers to go to market together with cloud services for the enterprise. Cisco plans to invest $1 billion over the next two years on infrastructure to implement Intercloud. ?</ContentText>
+                        <WebPageURL>http://www.lightreading.com/ciscos-cloud-bet-whats-in-it-for-sps/d/d-id/708373</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T18:11:06-04:00</PublishedDateTimestamp>
+                        <SourceDescription>SearchSDN</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Cisco Cloud Services emerge: Let the 'coopetition' begin</TitleText>
+                        <ContentText>With Cisco Cloud Services, the networking giant is transforming from hardware vendor to service provider and will sometimes compete with its partners.</ContentText>
+                        <WebPageURL>http://searchsdn.techtarget.com/news/2240216903/Cisco-Cloud-Services-emerge-Let-the-coopetition-begin</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T18:08:57-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Computer Dealer News</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Say good-bye to the Cisco silver partner</TitleText>
+                        <ContentText>LAS VEGAS – In the midst of introducing Cisco’s next generation channel partner program, Edison Peres, the senior vice president of channels for the San Jose, Calif.-based company dropped a bombshell at the Partner Summit conference. Cisco is retiring the silver tier on April 1st, 2016.
+
+Current silver designated channel partners will have to decide increase their investments in</ContentText>
+                        <WebPageURL>http://www.computerdealernews.com/news/say-good-bye-to-the-cisco-silver-partner/32588</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T17:17:00-04:00</PublishedDateTimestamp>
+                        <SourceDescription>TechDay</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>Awards</CategoryText>
+                        <TitleText>UXC bags Cisco ANZ Partner Award</TitleText>
+                        <ContentText>UXC Limited has been awarded Teaming Excellence Award of the Year 2013 at the Cisco Australia and New Zealand Partner Insight Awards.
+
+“Cisco ANZ’s Partner Insight Awards celebrate the high achievers within our partner community,” says Jason Brouwers, director of the Partner Business Group for Cisco ANZ.
+
+“UXC Limited is a truly deserving winner of Teaming Excellence Award of the Year</ContentText>
+                        <WebPageURL>http://techday.com/the-channel/news/uxc-bags-cisco-anz-partner-award/181405/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T17:11:14-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Japan Today</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Cisco pushes into 'cloud' with $1 bil investment</TitleText>
+                        <ContentText>Cisco Systems announced plans Monday to invest $1 billion to step up its cloud computing with several global partners.
+
+The California-based equipment maker said the alliance would build “the world’s largest global Intercloud,” or a network of clouds to support objects ranging from wearable devices to appliances to automobiles.
+
+Partners with Cisco in the project include Australia’s</ContentText>
+                        <WebPageURL>http://www.japantoday.com/category/technology/view/cisco-pushes-into-cloud-with-1-bil-investment</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T17:10:28-04:00</PublishedDateTimestamp>
+                        <SourceDescription>ITP Technology</SourceDescription>
+                        <CategoryText>Regulation Or Litigation</CategoryText>
+                        <TitleText>The hardest conversation you have had</TitleText>
+                        <ContentText>Anthony Perridge, EMEA channel director at Sourcefire, now a part of Cisco, talks about information security attitudes and practices, and why employees with the highest access to valuable company information are more likely to engage in risky behaviours.
+
+Anthony Perridge, EMEA channel director at Sourcefire, now a part of Cisco, talks about information security attitudes and practices,</ContentText>
+                        <WebPageURL>http://www.itp.net/597182-the-hardest-conversation-you-have-had</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T16:20:14-04:00</PublishedDateTimestamp>
+                        <SourceDescription>CIOL</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Cisco shares enterprise case studies on Unified...</TitleText>
+                        <ContentText>BANGALORE, INDIA: Enterprise networking vendor Cisco shared some of the customer case studies reflecting the achievements of its Unified Computing System (UCS) in the last five years.
+
+The Stock Exchange of Thailand is one of the customers of Cisco UCS.The Stock Exchange of Thailand says Cisco UCS servers will improve IT infrastructure efficiency, which is especially helpful for Internet</ContentText>
+                        <WebPageURL>http://www.ciol.com/ciol/news/211641/cisco-shares-enterprise-studies-unified-computing-system-ucs</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T16:15:53-04:00</PublishedDateTimestamp>
+                        <SourceDescription>DailyFT</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Cisco joins cloud computing race with $ 1 b plan</TitleText>
+                        <ContentText>REUTERS: Cisco Systems Inc plans to offer cloud computing services, pledging to spend $ 1 billion over the next two years to enter a market currently led by the world’s biggest online retailer Amazon.com Inc, the Wall Street Journal reported.
+
+Cisco said it will spend the amount to build data centres to help run the new service called Cisco Cloud Services, the Journal reported.
+
+?</ContentText>
+                        <WebPageURL>http://www.ft.lk/2014/03/26/cisco-joins-cloud-computing-race-with-1-b-plan/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T16:05:50-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Information Week</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Cisco's Cloud Plan For Internet Of Things</TitleText>
+                        <ContentText>Cisco's $1 billion cloud investment is not about competing with Amazon, Google, or Rackspace to supply general-purpose IaaS. Cisco and its partners will offer a global chain of datacenters to serve as a backbone for the Internet of Things.
+
+Cisco Systems on Monday announced a $1 billion investment in what it calls its Intercloud , a linked chain of datacenters providing services</ContentText>
+                        <WebPageURL>http://www.informationweek.com/cloud/software-as-a-service/ciscos-cloud-plan-for-internet-of-things/d/d-id/1127889</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T16:03:26-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Basics Media</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <TitleText>Cisco Systems, Inc. (NASDAQ:CSCO) Rides High On Cloud Based Offerings</TitleText>
+                        <ContentText>Tomahawk, WI 03/25/2014 (Basicsmedia) – San Jose based US IT giant Cisco Systems, Inc. (NASDAQ:CSCO) recently unveiled an ambitious plan to erect world’s largest global Intercloud in association with several other well reputed partners.
+
+The global Intercloud, being architected by the company is aimed to achieve the Internet of Everything (IoT) goal. The system comes with a</ContentText>
+                        <WebPageURL>http://basicsmedia.com/cisco-systems-inc-nasdaqcsco-rides-high-on-cloud-based-offerings-9005?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=cisco-systems-inc-nasdaqcsco-rides-high-on-cloud-based-offerings</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T15:22:53-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Channel Partners</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>General Industry</CategoryText>
+                        <TitleText>Partners Watching Cisco's New Intercloud 'Very Closely'</TitleText>
+                        <ContentText>As the world’s largest maker of networking equipment, Cisco previously positioned itself as the preferred supplier of architectural building blocks for cloud builders. Instead of building cloud facilities itself, Cisco was more comfortable providing the key pieces of gear to those that did.</ContentText>
+                        <WebPageURL>http://www.channelpartnersonline.com/news/2014/03/partners-watching-ciscos-new-intercloud-very-closely.aspx</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T14:39:44-04:00</PublishedDateTimestamp>
+                        <SourceDescription>PR Newswire</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Accudata Systems Achieves Cisco Master Security Specialization in USA</TitleText>
+                        <ContentText>HOUSTON, March 25, 2014 /PRNewswire/ -- Accudata Systems announced today that it has achieved the Cisco® Master Security Specialization. This specialization recognizes Accudata as having fulfilled the training requirements and program prerequisites to sell, deploy, and support highly sophisticated Cisco network security solutions.
+
+"We are very pleased with this validation from Cisco.</ContentText>
+                        <WebPageURL>http://www.prnewswire.com/news-releases/accudata-systems-achieves-cisco-master-security-specialization-in-usa-252292551.html</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T14:30:33-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Cisco Blog</SourceDescription>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Introducing the Next Generation Cisco Channel Partner Program</TitleText>
+                        <ContentText>The Cisco Channel Partner Program has always focused on value versus volume, rewarding partners who create value, no matter their size or sales volume. The program has evolved over time to identify market transitions, enable our partners through these transitions and recognize partners for their practices. With major market transitions happening today, our channel partners have unique</ContentText>
+                        <WebPageURL>http://blogs.cisco.com/channels/introducing-the-next-generation-cisco-channel-partner-program/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T12:45:20-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Fierce IT Security</SourceDescription>
+                        <CategoryText>Earnings Release</CategoryText>
+                        <CategoryText>Financial News</CategoryText>
+                        <CategoryText>General Industry</CategoryText>
+                        <TitleText>Cisco's SourceFire buy gives tech giant renewed network security momentum</TitleText>
+                        <ContentText>Cisco's $2.7 billion purchase of Sourcefire last fall has enabled the tech giant to regain momentum in the growing network security market, according to data from Infonetics Research.
+
+Through the acquisition, Cisco increased its market revenue by 20 percent in the fourth quarter, its highest security revenue quarter ever, says Jeff Wilson, principal analyst for security at?</ContentText>
+                        <WebPageURL>http://www.fierceitsecurity.com/story/ciscos-sourcefire-buy-gives-tech-giant-renewed-network-security-momentum/2014-03-25?utm_source=rss&amp;utm_medium=rss</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T12:06:12-04:00</PublishedDateTimestamp>
+                        <SourceDescription>eCoustics.com</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Cisco Pledges $1B for Supercharged ‘Intercloud’</TitleText>
+                        <ContentText>Networking giant Cisco today announced a two-year plan to invest $1 billion in the expansion of its cloud infrastructure.
+
+Working with partners, Cisco said it will build a network of clouds – dubbed the Intercloud – which will be used, in part, to support the Internet of Everything.
+
+“The timing is right for Cisco and its partners to invest in a groundbreaking, application-centric</ContentText>
+                        <WebPageURL>http://www.ecoustics.com/news/cisco-pledges-1b-supercharged-intercloud/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T11:52:01-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Carbonated.TV</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Cisco Joins Cloud Computing Race With $1 Billion Plan</TitleText>
+                        <ContentText>Cisco Systems Inc plans to offer cloud computing services, pledging to spend $1 billion over the next two years to enter a market currently led by the world's biggest online retailer Amazon.com Inc.
+
+Cisco said it will spend the amount to build data centers to help run the new service called Cisco Cloud Services.
+
+Cisco, which mainly deals in networking hardware, wants to take advantage</ContentText>
+                        <WebPageURL>http://www.carbonated.tv/technology/cisco-joins-cloud-computing-race-with-1-billion-plan</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T11:37:56-04:00</PublishedDateTimestamp>
+                        <SourceDescription>IT News Online</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>ePlus Recognized as Cisco Data Virtualization Authorized Technology Provider Partner in the U.S.</TitleText>
+                        <ContentText>HERNDON, Va., March 25, 2014 (GLOBE NEWSWIRE) -- ePlus inc. (Nasdaq:PLUS) today announced that its subsidiary, ePlus Technology, inc., has achieved Data Virtualization Authorized Technology Provider (ATP) status from Cisco. This designation recognizes ePlus as having fulfilled the training requirements and program prerequisites to sell, deploy, and support Cisco Data Virtualization</ContentText>
+                        <WebPageURL>http://www.itnewsonline.com/showstory.php?storyid=32617&amp;scatid=8&amp;contid=3</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T11:18:41-04:00</PublishedDateTimestamp>
+                        <SourceDescription>GigaOM Pro</SourceDescription>
+                        <CategoryText>Reduction</CategoryText>
+                        <CategoryText>General Industry</CategoryText>
+                        <CategoryText>New Alliance</CategoryText>
+                        <CategoryText>Expansion</CategoryText>
+                        <TitleText>Research: Cisco throws its hat into the cloud ring…too late</TitleText>
+                        <ContentText>Cisco Systems plans to invest over $1 billion to expand its cloud presence over the next two years. This includes building an OpenStack-based “network of clouds” with partners. Clearly Cisco plans to take aim at the success of AWS, Microsoft, and Google, and the hope is to provide a very late impact in the market.
+
+Cisco Cloud Services is dubbed an Intercloud, which will be hosted</ContentText>
+                        <WebPageURL>http://research.gigaom.com/2014/03/cisco-throws-its-hat-into-the-cloud-ring-too-late/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T10:32:48-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Hot Hardware</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>General Industry</CategoryText>
+                        <TitleText>Cisco Plans $1 Billion Investment In Cloud Computing To Compete With Amazon</TitleText>
+                        <ContentText>It's often said you have to spend money to make money, and if that's true, Cisco may make a fortune in the cloud space. That's because the networking guru is reportedly planning to invest a king's ransom -- $1 billion, to be precise -- over the course of the next two years building data centers that will help run a new service it's calling Cisco Cloud Services.
+
+Cisco specializes in</ContentText>
+                        <WebPageURL>http://hothardware.com/News/Cisco-Plans-1-Billion-Investment-In-Cloud-Computing-To-Compete-With-Amazon/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T10:27:11-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Mis Asia</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>General Industry</CategoryText>
+                        <TitleText>Cisco's big about-face on cloud services</TitleText>
+                        <ContentText>Three years ago as part of a comprehensive cloud strategy, Cisco pledged to address every aspect of cloud except services – it did not want to compete with customers.
+
+Three years ago as part of a comprehensive cloud strategy, Cisco pledged to address every aspect of cloud except services it did not want to compete with customers.
+
+Cisco is now getting into cloud services with a $1</ContentText>
+                        <WebPageURL>http://www.mis-asia.com/resource/cloud-computing/ciscos-big-about-face-on-cloud-services/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T10:16:22-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Business Review Weekly</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Telstra first partner in Cisco’s $US1bn bid to make cloud more corporate-friendly</TitleText>
+                        <ContentText>Even for the world of globe-spanning computer systems, Cisco is going big.
+
+On Monday, Cisco Systems announced it would spend $US1 billion on creation of an “Intercloud,” which promises to bridge multiple cloud-computing systems open to the public - like those offered by Amazon Web Services and Google Compute Engine - with the private clouds of big companies and specialty cloud services</ContentText>
+                        <WebPageURL>http://www.brw.com.au/p/tech-gadgets/telstra_first_partner_cloud_cisco_CT6m0WIpmNI63i2YIBGNKJ</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T10:05:27-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Yahoo - Finance (UK &amp; Ireland)</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Embrane Delivers Lifecycle Management for Cisco Virtual ASA and Sourcefire Virtual Appliances</TitleText>
+                        <ContentText>Tue, Mar 25, 2014, 14:05 GMT - UK Markets close in 2 hrs 25 mins
+
+SANTA CLARA, Calif.--(BUSINESS WIRE)--
+
+Embrane ,® the leader in delivering application-centric network services , today announced that it will deliver a lifecycle management solution for the Cisco Adaptive Security Virtual Appliance (ASAv) and the Sourcefire virtual appliances. The combination of the Embrane heleos®</ContentText>
+                        <WebPageURL>http://uk.finance.yahoo.com/news/embrane-delivers-lifecycle-management-cisco-130000787.html</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T09:22:47-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Computer World Australia</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <TitleText>New Cisco switches take aim at big data centers, data applications</TitleText>
+                        <ContentText>Cisco this week is unveiling two new configurations of its recently-launched  Nexus 9000 switches , a new 40G Nexus switch.  In addition, Cisco is celebrating the fifth anniversary of its UCS server. Cisco also announced certification programs for its new Application Centric Infrastructure (ACI) programmable networking product line, which includes the Nexus 9000 switches.</ContentText>
+                        <WebPageURL>http://www.computerworld.com.au/article/541311/new_cisco_switches_take_aim_big_data_centers_data_applications/?fp=4&amp;fpid=78268965</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T09:14:14-04:00</PublishedDateTimestamp>
+                        <SourceDescription>The New New Internet</SourceDescription>
+                        <CategoryText>Reduction</CategoryText>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>General Industry</CategoryText>
+                        <CategoryText>Expansion</CategoryText>
+                        <TitleText>Cisco to Invest $1B in its Global Cloud Network; Robert Lloyd Comments</TitleText>
+                        <ContentText>Cisco will spend more than $1 billion during the next two years to expand its cloud computing business and deliver enterprise cloud services through a global partner ecosystem.
+
+The Intercloud network will offer a suite of analytics, security and data sovereignty architectures to support the Internet of Everything, Cisco said Monday .
+
+Telstra, Canopy, Logicalis Group, MicroStrategy</ContentText>
+                        <WebPageURL>http://blog.executivebiz.com/2014/03/cisco-to-invest-1b-in-its-global-cloud-network-robert-lloyd-comments/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T09:05:03-04:00</PublishedDateTimestamp>
+                        <SourceDescription>MENAFN.com</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Cisco to invest USD1b in cloud computing</TitleText>
+                        <ContentText>(MENAFN) US-based Cisco Systems said that it plans to invest USD1 billion to develop it cloud computing with several global partners, Saudi Gazette reported.
+
+Cisco's partners include Australia's Telstra, Canadian business communications provider Allstream, European cloud company Canopy and global IT outsourcing company Wipro Ltd. of India.
+
+The company said that the alliance would</ContentText>
+                        <WebPageURL>http://www.menafn.com/1093794655/Cisco-to-invest-USD1b-in-cloud-computing?src=RSS</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T09:02:49-04:00</PublishedDateTimestamp>
+                        <SourceDescription>FINANCIAL TECH SPOTLIGHT</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Cisco Drives Data Center Innovation: New High Performance Nexus 9000 Switches for Application Centric Infrastructure</TitleText>
+                        <ContentText>(M2 PressWIRE Via Acquire Media NewsEdge) LAS VEGAS, NV -- Cisco today continued its rapid pace of Application Centric Infrastructure (ACI) innovation by introducing the new Cisco Nexus 9504 and Nexus 9516 switches to the Nexus 9000 portfolio. The centralized policy-driven automation of the Cisco Application Policy Infrastructure Controller (APIC), application profiles and Nexus 9000</ContentText>
+                        <WebPageURL>http://financial.tmcnet.com/corporate-performance-management/news/2014/03/25/7742295.htm</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T08:50:23-04:00</PublishedDateTimestamp>
+                        <SourceDescription>channel buzz.ca</SourceDescription>
+                        <CategoryText>Executive Announcement</CategoryText>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>Management Change</CategoryText>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Cisco touts Intercloud as partner opportunity</TitleText>
+                        <ContentText>LAS VEGAS – On the eve of its annual Partner Summit here, Cisco Systems threw a major curveball, reversing its long-held stance that it would not itself stand up clouds in announcing plans to champion and build “the world’s largest Intercloud ,” a vision that will see it working with many of its partners to create a network of enterprise-grade clouds.
+
+In a press conference explaining</ContentText>
+                        <WebPageURL>http://www.channelbuzz.ca/2014/03/cisco-touts-intercloud-partner-opportunity-9079/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T08:06:28-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Computer World</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Cisco's Intercloud could supercharge its Internet of Things plans</TitleText>
+                        <ContentText>The company's IOx edge-computing platform could mesh with its cloud plan to improve IoT performance
+
+IDG News Service - Cisco Systems' "Intercloud" platform for interoperable cloud services could be combined with remote-computing technology to define the so-called Internet of Things from the weather-ravaged, intermittently connected edge to regional and global data centers.
+
+The</ContentText>
+                        <WebPageURL>http://www.computerworld.com/s/article/9247160/Cisco_39_s_Intercloud_could_supercharge_its_Internet_of_Things_plans?source=rss_latest_content</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T07:24:26-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Energy - International Business Times</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Cisco Plans To Invest More Than $1B In Cloud Computing Over The Next 2 years</TitleText>
+                        <ContentText>Cisco said it will spend the amount to build data centers to help run the new service called Cisco Cloud Services. Reuters
+
+Cisco Systems Inc. (NASDAQ:CSCO) announced its plans on Monday to offer cloud-computing services and pledged to invest more than $1 billion to smooth its entry into the business over the next two years.
+
+According to the company, it will invest the amount in</ContentText>
+                        <WebPageURL>http://www.ibtimes.com/cisco-plans-invest-more-1b-cloud-computing-over-next-2-years-1563394</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T07:24:49-04:00</PublishedDateTimestamp>
+                        <SourceDescription>The Hindu</SourceDescription>
+                        <CategoryText>Reduction</CategoryText>
+                        <CategoryText>General Industry</CategoryText>
+                        <CategoryText>New Alliance</CategoryText>
+                        <CategoryText>Expansion</CategoryText>
+                        <TitleText>Cisco to invest $1 billion to expand cloud business</TitleText>
+                        <ContentText>Networking giant Cisco will invest USD one billion (about Rs 6,200 crore) over the next two years to expand its cloud business and build a “network of clouds” with partners to take on rivals like IBM and Amazon.
+
+Cisco intends to build the world’s largest global “Intercloud” or a network of clouds to capitalise on the growing trend of companies opting for services rather than buying and?</ContentText>
+                        <WebPageURL>http://www.thehindu.com/business/Industry/cisco-to-invest-1-billion-to-expand-cloud-business/article5830413.ece?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T07:02:36-04:00</PublishedDateTimestamp>
+                        <SourceDescription>The Inquirer</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Cisco will throw $1bn at the cloud</TitleText>
+                        <ContentText>CISCO HAS ANNOUNCED plans to invest $1bn in expanding its cloud computing business to help it compete with Amazon Web Services (AWS) and VMware.
+
+The firm, which is best known for its network infrastructure products, announced that what it calls the Cisco global Intercloud will be hosted on a global network of Cisco and partner data centres. The firm said it will offer a suite of</ContentText>
+                        <WebPageURL>http://www.theinquirer.net/inquirer/news/2336041/cisco-will-throw-usd1bn-at-the-cloud</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T05:45:54-04:00</PublishedDateTimestamp>
+                        <SourceDescription>The Reporter.com</SourceDescription>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Cisco to invest over $1B in cloud computing</TitleText>
+                        <ContentText>NEW YORK (AP) -- Cisco says it plans to spend more than $1 billion over the next two years to build up its cloud computing network.
+
+Cisco plans to use the money to expand its data centers for the new service to be called Cisco Cloud Services.
+
+The move makes the San Jose-based networking company the latest to enter an arena that caters to the growing number of companies that would</ContentText>
+                        <WebPageURL>http://www.thereporter.com/rss/ci_25413996?source=rss</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T05:18:52-04:00</PublishedDateTimestamp>
+                        <SourceDescription>CIOL</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Cisco adds Nexus 9504 and Nexus 9516 switches for cloud networks...</TitleText>
+                        <ContentText>MUMBAI, INDIA: Enterprise networking vendor Cisco introduced Cisco Nexus 9504 and Nexus 9516 switches to the Nexus 9000 portfolio for cloud networks.
+
+Cisco also announced new Nexus 3164Q switch designed for the demanding workloads of massively scalable data centres (MSDC) and big data. The Nexus 3164Q supports widest range of automation tools for Cloud providers including Linux</ContentText>
+                        <WebPageURL>http://www.ciol.com/ciol/news/211596/cisco-adds-nexus-9504-nexus-9516-switches-cloud-networks</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T05:02:56-04:00</PublishedDateTimestamp>
+                        <SourceDescription>The Hindu Business Line</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Cisco to invest $1 bn for cloud services, expand partnership with Wipro</TitleText>
+                        <ContentText>Technology major Cisco will expand its partnership with Wipro as part of its $1-billion push into the burgeoning cloud computing space over the next two years. The company plans to build what it says will be the world’s largest network of ‘clouds’ along with nine partners, including the Bangalore-based software services company. With this initiative, Cisco will offer cloud-led</ContentText>
+                        <WebPageURL>http://www.thehindubusinessline.com/companies/cisco-to-invest-1-bn-for-cloud-services-expand-partnership-with-wipro/article5829758.ece</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T03:50:05-04:00</PublishedDateTimestamp>
+                        <SourceDescription>BigPond News</SourceDescription>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Cisco to invest $US1b in cloud computing</TitleText>
+                        <ContentText>Cisco says it plans to spend more than $US1 billion ($A1.10 billion) over the next two years to build up its cloud computing network.
+
+Cisco plans to use the money to expand its data centres for the new service to be called Cisco Cloud Services.
+
+The move makes the San Jose-based networking company the latest to enter an arena that caters to the growing number of companies that would</ContentText>
+                        <WebPageURL>http://www.skynews.com.au/tech/article.aspx?id=961168</WebPageURL>
+                     </NewsDetails>
+                  </News>
+               </Organization>
+            </Product>
+         </OrderProductResponseDetail>
+      </new:OrderProductResponse>
+   </soap-env:Body>
+</soapenv:Envelope>

@@ -1,6 +1,6 @@
 doctype html
 head
-	title Chevron News
+	title News & Insights
 	meta(charset="utf-8")
 	meta(name="viewport",content="width=device-width,initial-scale=1")
 	link(rel="stylesheet",href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700")
@@ -17,62 +17,10 @@ body
 				span.pull-right 
 					a#show-all(href="#") Show All
 				h1 News and Insights for 
-					span.company Chevron
-	.container.cat-container.executive-activity-container
-		h3.executive-activity
-			a.sectionCollapse(href="#",data-target="#executive-activity-subcon")
-				i.glyphicon.glyphicon-chevron-right
-				| &nbsp; Executive Activities
-	.container.cat-container.executive-announcement-container
-		h3.executive-announcement
-			a.sectionCollapse(href="#",data-target="#executive-announcement-subcon")
-				i.glyphicon.glyphicon-chevron-right
-				| &nbsp; Executive Announcements
-	.container.cat-container.executive-quote-container
-		h3.executive-quote
-			a.sectionCollapse(href="#",data-target="#executive-quote-subcon")
-				i.glyphicon.glyphicon-chevron-right
-				| &nbsp; Executive Quotes
-	.container.cat-container.regulation-container
-		h3.regulation
-			a.sectionCollapse(href="#",data-target="#regulation-subcon")
-				i.glyphicon.glyphicon-chevron-right
-				| &nbsp; Regulations and Litigations
-	.container.cat-container.new-alliance-container
-		h3.new-alliance
-			a.sectionCollapse(href="#",data-target="#new-alliance-subcon")
-				i.glyphicon.glyphicon-chevron-right
-				| &nbsp; New Alliances
-	.container.cat-container.mgmt-change-container
-		h3.mgmt-change
-			a.sectionCollapse(href="#",data-target="#mgmt-change-subcon")
-				i.glyphicon.glyphicon-chevron-right
-				| &nbsp; Management Changes
-	.container.cat-container.merger-container
-		h3.merger
-			a.sectionCollapse(href="#",data-target="#merger-subcon")
-				i.glyphicon.glyphicon-chevron-right
-				| &nbsp; Mergers and Acquisitions
-	.container.cat-container.wins-container
-		h3.wins
-			a.sectionCollapse(href="#",data-target="#wins-subcon")
-				i.glyphicon.glyphicon-chevron-right
-				| &nbsp; Wins
-	.container.cat-container.industry-container
-		h3.industry
-			a.sectionCollapse(href="#",data-target="#industry-subcon")
-				i.glyphicon.glyphicon-chevron-right
-				| &nbsp; General Industry
-		//- .news-story
-		//- 	.story-block
-		//- 		h3 Executive Quote
-		//- 		h2 
-		//- 			a(href="http://www.prdaily.com/Main/Articles/1d53442a-12f2-4f77-a890-629e76d20da2.aspx") Locals don't share outsiders' rage over Chevron’s post-blast pizza coupons
-		//- 		p.meta PR Daily | March 7, 2014
-		//- 		.contents
-		//- 			p.summary Chevron sparked considerable outrage a few weeks ago when it apologized for a very loud, very disruptive fracking well explosion in Bobtown, Pa., with coupons for free pizza.
-		//- 			p Nearly 13,000 people have signed a MoveOn.org petition demanding a further apology for the explosion, calling the pizza coupons “an insult.” According to an Associated Press story , none of those people are...
-		//- 				a(href="http://www.prdaily.com/Main/Articles/1d53442a-12f2-4f77-a890-629e76d20da2.aspx").more &nbsp;[More]
+					span.company Amazon
+		.row#amazon-stories
+		.row#google-stories
+		//- etc
 	.container
 		.footer
 			p Powered by D&amp;B Direct
@@ -80,96 +28,19 @@ body
 	script(src='js/parse.js')
 	script.
 		$(document).ready(function(){
+			buildNews("news_amazon.xml","Amazon");
+		});
+		function buildNews(xmlFile,companyName){
+
 			$.ajax({
 				type: "GET",
-				url: "chevron_news.xml",
-				dataType: "text", // text for IE, xml for the rest
+				url: "news_amazon.xml",
+				dataType: "text",
 				success: function(xml){
-					if($(xml).find('NewsDetails').has('CategoryText:contains("Executive Quote")').length>0) {
-						$("h3.executive-quote").show();
-						$(".executive-quote-container").append('<div class="hided" id="executive-quote-subcon"></div>');
-						$(xml).find('NewsDetails').has('CategoryText:contains("Executive Quote")').each(function(index){
-							writeStories("exec-quote-"+index,$("#executive-quote-subcon"),$(this));
-						});
-					}
-					if($(xml).find('NewsDetails').has('CategoryText:contains("Executive Activity")').length>0) {
-						$("h3.executive-activity").show();
-						$(".executive-activity-container").append('<div class="hided" id="executive-activity-subcon"></div>');
-						$(xml).find('NewsDetails').has('CategoryText:contains("Executive Activity")').each(function(index){
-							writeStories("exec-activity-"+index,$("#executive-activity-subcon"),$(this));
-						});
-					}
-					if($(xml).find('NewsDetails').has('CategoryText:contains("Executive Announcement")').length>0) {
-						$("h3.executive-announcement").show();
-						$(".executive-announcement-container").append('<div class="hided" id="executive-announcement-subcon"></div>');
-						$(xml).find('NewsDetails').has('CategoryText:contains("Executive Announcement")').each(function(index){
-							writeStories("exec-announce-"+index,$("#executive-announcement-subcon"),$(this));
-						});
-					}
-					if($(xml).find('NewsDetails').has('CategoryText:contains("Regulation Or Litigation")').length>0) {
-						$("h3.regulation").show();
-						$(".regulation-container").append('<div class="hided" id="regulation-subcon"></div>');
-						$(xml).find('NewsDetails').has('CategoryText:contains("Regulation Or Litigation")').each(function(index){
-							writeStories("regulation-"+index,$("#regulation-subcon"),$(this));
-						});
-					}
-					if($(xml).find('NewsDetails').has('CategoryText:contains("New Alliance")').length>0) {
-						$("h3.new-alliance").show();
-						$(".new-alliance-container").append('<div class="hided" id="new-alliance-subcon"></div>');
-						$(xml).find('NewsDetails').has('CategoryText:contains("New Alliance")').each(function(index){
-							writeStories("alliance-"+index,$("#new-alliance-subcon"),$(this));
-						});
-					}
-					if($(xml).find('NewsDetails').has('CategoryText:contains("Management Change")').length>0) {
-						$("h3.mgmt-change").show();
-						$(".mgmt-change-container").append('<div class="hided" id="mgmt-change-subcon"></div>');
-						$(xml).find('NewsDetails').has('CategoryText:contains("Management Change")').each(function(index){
-							writeStories("mgmt-change-"+index,$("#mgmt-change-subcon"),$(this));
-						});
-					}
-					if($(xml).find('NewsDetails').has('CategoryText:contains("Merger And Acquisition")').length>0) {
-						$("h3.merger").show();
-						$(".merger-container").append('<div class="hided" id="merger-subcon"></div>');
-						$(xml).find('NewsDetails').has('CategoryText:contains("Merger And Acquisition")').each(function(index){
-							writeStories("merger-"+index,$("#merger-subcon"),$(this));
-						});
-					}
-					if($(xml).find('NewsDetails').has('CategoryText:contains("Wins")').length>0) {
-						$("h3.wins").show();
-						$(".wins-container").append('<div class="hided" id="wins-subcon"></div>');
-						$(xml).find('NewsDetails').has('CategoryText:contains("Wins")').each(function(index){
-							writeStories("wins-"+index,$("#wins-subcon"),$(this));
-						});
-					}
-					if($(xml).find('NewsDetails').has('CategoryText:contains("General Industry")').length>0) {
-						$("h3.industry").show();
-						$(".industry-container").append('<div class="hided" id="industry-subcon"></div>');
-						$(xml).find('NewsDetails').has('CategoryText:contains("General Industry")').each(function(index){
-							writeStories("wins-"+index,$("#industry-subcon"),$(this));
-						});
-					}
+					parseNews(xml);
 				},
 				error: function() {
-				alert("An error occurred while processing XML file.");
+					alert("An error occurred while processing XML file.");
 				}
-
 			});
-			$(".sectionCollapse").click(function(){
-				var theTarget = $($(this).attr("data-target"));
-				if(theTarget.is(":visible")) {
-					$(this).find(".glyphicon").attr("class","glyphicon glyphicon-chevron-right");
-					theTarget.slideUp();
-				}
-				else {
-					$(this).find(".glyphicon").attr("class","glyphicon glyphicon-chevron-down");
-					theTarget.slideDown();
-				}
-				return false;		
-			});
-			$("#show-all").click(function(e){
-				e.preventDefault();
-				$(".hided").show();
-				$(".glyphicon").attr("class","glyphicon glyphicon-chevron-down");
-			});
-
-		});
+		}

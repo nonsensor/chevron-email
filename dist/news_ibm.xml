@@ -1,0 +1,1127 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap-env:Body xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+      <new:OrderProductResponse ServiceVersionNumber="3.0" xmlns:new="http://services.dnb.com/NewsAndMediaProductServiceV2.0">
+         <TransactionDetail>
+            <ServiceTransactionID>Id-66fb02e0533b007e01bb742e-2</ServiceTransactionID>
+            <TransactionTimestamp>2014-04-01T14:07:59.610-04:00</TransactionTimestamp>
+         </TransactionDetail>
+         <TransactionResult>
+            <SeverityText>Information</SeverityText>
+            <ResultID>CM000</ResultID>
+            <ResultText>Success</ResultText>
+         </TransactionResult>
+         <OrderProductResponseDetail>
+            <InquiryDetail>
+               <DUNSNumber>001368083</DUNSNumber>
+               <CountryISOAlpha2Code>US</CountryISOAlpha2Code>
+            </InquiryDetail>
+            <Product>
+               <DNBProductID>NEWS_MDA</DNBProductID>
+               <Organization>
+                  <SubjectHeader>
+                     <DUNSNumber>001368083</DUNSNumber>
+                  </SubjectHeader>
+                  <Telecommunication>
+                     <TelephoneNumber>
+                        <TelecommunicationNumber>(914) 499-1900</TelecommunicationNumber>
+                        <InternationalDialingCode>1</InternationalDialingCode>
+                     </TelephoneNumber>
+                     <FacsimileNumber>
+                        <TelecommunicationNumber>(914) 765-7382</TelecommunicationNumber>
+                        <InternationalDialingCode>1</InternationalDialingCode>
+                     </FacsimileNumber>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>10442975871</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>839103432</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>108717552488158</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>109319425817521</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>111478392278142</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>114327362923</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>121466564533284</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>132739840102872</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>14382814766</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>149130071810235</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>150508884976204</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>150713791632383</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>151336661546</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>153353904717236</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>17628877758</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>177259368993348</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>178911912164050</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>1841272773</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>18656282219</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>187446750783</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>193362963483</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>205632682771</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>21826922561</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>23461144288</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>295984527332</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>329847835556</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>37213992975</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>37296674511</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>37812815878</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>38404374060</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>42197664985</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>46376367191</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>50864663299</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>59673874884</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>6244062979</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>66976090302</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>81763502606</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25869">Facebook</SocialMediaPlatformName>
+                        <UserContentKey>106878175272</UserContentKey>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibm_news</UserContentKey>
+                        <UserDisplayName>IBM News Releases</UserDisplayName>
+                        <SubscriberQuantity>7955913</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmdesign</UserContentKey>
+                        <UserDisplayName>IBM Design</UserDisplayName>
+                        <SubscriberQuantity>1608593</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmsoftware</UserContentKey>
+                        <UserDisplayName>IBM Software</UserDisplayName>
+                        <SubscriberQuantity>777756</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmevents</UserContentKey>
+                        <UserDisplayName>ibmevents</UserDisplayName>
+                        <SubscriberQuantity>742315</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmsysxblade</UserContentKey>
+                        <UserDisplayName>IBM System x</UserDisplayName>
+                        <SubscriberQuantity>416584</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmcognos</UserContentKey>
+                        <UserDisplayName>IBM Cognos Software</UserDisplayName>
+                        <SubscriberQuantity>365876</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmaccess</UserContentKey>
+                        <UserDisplayName>IBM Accessibility</UserDisplayName>
+                        <SubscriberQuantity>364861</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>smarterleaders</UserContentKey>
+                        <UserDisplayName>IBM Smarter Leaders</UserDisplayName>
+                        <SubscriberQuantity>313432</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibm_uk_news</UserContentKey>
+                        <UserDisplayName>IBM in the news</UserDisplayName>
+                        <SubscriberQuantity>256746</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmretail</UserContentKey>
+                        <UserDisplayName>IBM Retail</UserDisplayName>
+                        <SubscriberQuantity>176750</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibm_system_z</UserContentKey>
+                        <UserDisplayName>IBM System z</UserDisplayName>
+                        <SubscriberQuantity>173397</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmswnewsletter</UserContentKey>
+                        <UserDisplayName>IBM SW Newsletter</UserDisplayName>
+                        <SubscriberQuantity>159467</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmtivoli</UserContentKey>
+                        <UserDisplayName>ibmtivoli</UserDisplayName>
+                        <SubscriberQuantity>137851</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmpromos</UserContentKey>
+                        <UserDisplayName>IBM Promotions</UserDisplayName>
+                        <SubscriberQuantity>132104</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>linux_at_ibm</UserContentKey>
+                        <UserDisplayName>Linux At IBM</UserDisplayName>
+                        <SubscriberQuantity>90629</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmstorage</UserContentKey>
+                        <UserDisplayName>IBM Storage</UserDisplayName>
+                        <SubscriberQuantity>85876</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>greater_ibm</UserContentKey>
+                        <UserDisplayName>Greater_IBM</UserDisplayName>
+                        <SubscriberQuantity>76160</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmukcareers</UserContentKey>
+                        <UserDisplayName>IBM UK Careers</UserDisplayName>
+                        <SubscriberQuantity>69048</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>brucedouglass</UserContentKey>
+                        <UserDisplayName>Bruce Douglass</UserDisplayName>
+                        <SubscriberQuantity>49525</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmsecurity</UserContentKey>
+                        <UserDisplayName>IBMSecuritySolutions</UserDisplayName>
+                        <SubscriberQuantity>47901</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibm_informix</UserContentKey>
+                        <UserDisplayName>IBM Informix</UserDisplayName>
+                        <SubscriberQuantity>47726</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>dw_japan</UserContentKey>
+                        <UserDisplayName>developerWorks Japan</UserDisplayName>
+                        <SubscriberQuantity>44513</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>bwhyte</UserContentKey>
+                        <UserDisplayName>Barry Whyte</UserDisplayName>
+                        <SubscriberQuantity>43281</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmpcs</UserContentKey>
+                        <UserDisplayName>IBM Used PCs</UserDisplayName>
+                        <SubscriberQuantity>39760</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmrational</UserContentKey>
+                        <UserDisplayName>IBM Rational</UserDisplayName>
+                        <SubscriberQuantity>38045</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmpulse</UserContentKey>
+                        <UserDisplayName>ibmPulse</UserDisplayName>
+                        <SubscriberQuantity>34713</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>soudw</UserContentKey>
+                        <UserDisplayName>IBM developerWorks</UserDisplayName>
+                        <SubscriberQuantity>31962</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibminnovate</UserContentKey>
+                        <UserDisplayName>IBM Innovate</UserDisplayName>
+                        <SubscriberQuantity>27860</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>dyninfra</UserContentKey>
+                        <UserDisplayName>IBM Dynamic Infra</UserDisplayName>
+                        <SubscriberQuantity>24332</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibm_dw_kr</UserContentKey>
+                        <UserDisplayName>developerWorks-kr</UserDisplayName>
+                        <SubscriberQuantity>21665</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>smarterplanetau</UserContentKey>
+                        <UserDisplayName>Smarter Planet (AU)</UserDisplayName>
+                        <SubscriberQuantity>20643</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>sustainableibm</UserContentKey>
+                        <UserDisplayName>IBM Sustainability</UserDisplayName>
+                        <SubscriberQuantity>18893</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibm_ecm</UserContentKey>
+                        <UserDisplayName>ECM</UserDisplayName>
+                        <SubscriberQuantity>17493</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmrich</UserContentKey>
+                        <UserDisplayName>Richard Swain</UserDisplayName>
+                        <SubscriberQuantity>17367</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>dwespanol</UserContentKey>
+                        <UserDisplayName>developerWorks Es</UserDisplayName>
+                        <SubscriberQuantity>17297</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>servicemgmt</UserContentKey>
+                        <UserDisplayName>IBMServiceManagement</UserDisplayName>
+                        <SubscriberQuantity>17185</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>davebart</UserContentKey>
+                        <UserDisplayName>David Bartlett</UserDisplayName>
+                        <SubscriberQuantity>17108</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibm_infosphere</UserContentKey>
+                        <UserDisplayName>IBM_InfoSphere</UserDisplayName>
+                        <SubscriberQuantity>14420</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmsmarterwater</UserContentKey>
+                        <UserDisplayName>IBM Smarter Water</UserDisplayName>
+                        <SubscriberQuantity>13629</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmsocialbiz</UserContentKey>
+                        <UserDisplayName>IBM Social Business</UserDisplayName>
+                        <SubscriberQuantity>13517</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>lotuseducation</UserContentKey>
+                        <UserDisplayName>Lotus Education</UserDisplayName>
+                        <SubscriberQuantity>13006</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>dturnerblogs</UserContentKey>
+                        <UserDisplayName>Delaney Turner</UserDisplayName>
+                        <SubscriberQuantity>12327</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibm_db2</UserContentKey>
+                        <UserDisplayName>IBM DB2</UserDisplayName>
+                        <SubscriberQuantity>11956</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibm_ims</UserContentKey>
+                        <UserDisplayName>IBM IMS</UserDisplayName>
+                        <SubscriberQuantity>10878</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>tivolipartners</UserContentKey>
+                        <UserDisplayName>Tivoli BusPartners</UserDisplayName>
+                        <SubscriberQuantity>10822</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmpartners</UserContentKey>
+                        <UserDisplayName>Jeffrey Palmer</UserDisplayName>
+                        <SubscriberQuantity>9954</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmdb2</UserContentKey>
+                        <UserDisplayName>IBMDB2</UserDisplayName>
+                        <SubscriberQuantity>9366</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmsoftware_in</UserContentKey>
+                        <UserDisplayName>Ibm software india</UserDisplayName>
+                        <SubscriberQuantity>9128</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>rationalpartner</UserContentKey>
+                        <UserDisplayName>Debora Cole</UserDisplayName>
+                        <SubscriberQuantity>8631</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>networkibmforum</UserContentKey>
+                        <UserDisplayName>ibmforum centers</UserDisplayName>
+                        <SubscriberQuantity>7812</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmthinkersanz</UserContentKey>
+                        <UserDisplayName>IBM GBS Australia/NZ</UserDisplayName>
+                        <SubscriberQuantity>7630</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>provenpractices</UserContentKey>
+                        <UserDisplayName>Tim O&amp;apos;Bryan</UserDisplayName>
+                        <SubscriberQuantity>6825</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>readshaw</UserContentKey>
+                        <UserDisplayName>Neil Readshaw</UserDisplayName>
+                        <SubscriberQuantity>5432</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmch</UserContentKey>
+                        <UserDisplayName>IBM Switzerland</UserDisplayName>
+                        <SubscriberQuantity>5215</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>elliceuffer</UserContentKey>
+                        <UserDisplayName>Ellice Uffer</UserDisplayName>
+                        <SubscriberQuantity>4669</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>forwardviewibm</UserContentKey>
+                        <UserDisplayName>IBM ForwardView</UserDisplayName>
+                        <SubscriberQuantity>4144</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmcognosedu</UserContentKey>
+                        <UserDisplayName>IBM Cognos Education</UserDisplayName>
+                        <SubscriberQuantity>3906</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>shalomedoran</UserContentKey>
+                        <UserDisplayName>Shalome Doran</UserDisplayName>
+                        <SubscriberQuantity>3801</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>guardium</UserContentKey>
+                        <UserDisplayName>IBM Guardium</UserDisplayName>
+                        <SubscriberQuantity>3521</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmsaas</UserContentKey>
+                        <UserDisplayName>Bonnie Durkin</UserDisplayName>
+                        <SubscriberQuantity>3458</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>servmgmtconnect</UserContentKey>
+                        <UserDisplayName>Service Mgmt Connect</UserDisplayName>
+                        <SubscriberQuantity>3437</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>oferguetta</UserContentKey>
+                        <UserDisplayName>Ofer Guetta</UserDisplayName>
+                        <SubscriberQuantity>3409</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmecosystem</UserContentKey>
+                        <UserDisplayName>IBM ISV Ecosystem</UserDisplayName>
+                        <SubscriberQuantity>2667</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmsa</UserContentKey>
+                        <UserDisplayName>System Architect</UserDisplayName>
+                        <SubscriberQuantity>2646</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibm_bao</UserContentKey>
+                        <UserDisplayName>IBM BAO</UserDisplayName>
+                        <SubscriberQuantity>2569</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmgovau</UserContentKey>
+                        <UserDisplayName>IBM Government AU</UserDisplayName>
+                        <SubscriberQuantity>2541</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmuk_webexpsw</UserContentKey>
+                        <UserDisplayName>IBM Web Exp Software</UserDisplayName>
+                        <SubscriberQuantity>2471</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>websphere_edu</UserContentKey>
+                        <UserDisplayName>Gene Fiorina</UserDisplayName>
+                        <SubscriberQuantity>2380</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibminteggov</UserContentKey>
+                        <UserDisplayName>IBMInfoIntegGov</UserDisplayName>
+                        <SubscriberQuantity>2058</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ranissi</UserContentKey>
+                        <UserDisplayName>Ralph Nissler</UserDisplayName>
+                        <SubscriberQuantity>2016</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmsystemztour</UserContentKey>
+                        <UserDisplayName>IBM System z Tour</UserDisplayName>
+                        <SubscriberQuantity>1932</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmcahealthcare</UserContentKey>
+                        <UserDisplayName>IBM CanadaHealthcare</UserDisplayName>
+                        <SubscriberQuantity>1827</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibmeducationca</UserContentKey>
+                        <UserDisplayName>IBM Training Canada</UserDisplayName>
+                        <SubscriberQuantity>490</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ismlibrary</UserContentKey>
+                        <UserDisplayName>ISM Library</UserDisplayName>
+                        <SubscriberQuantity>378</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibm_soliddb</UserContentKey>
+                        <UserDisplayName>Jamie Watters</UserDisplayName>
+                        <SubscriberQuantity>105</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>rajeshshidore</UserContentKey>
+                        <UserDisplayName>Rajesh Shidore</UserDisplayName>
+                        <SubscriberQuantity>56</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25867">Twitter</SocialMediaPlatformName>
+                        <UserContentKey>ibm_au_news</UserContentKey>
+                        <UserDisplayName>IBM_AU_news</UserDisplayName>
+                        <SubscriberQuantity>0</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>ibm</UserContentKey>
+                        <SubscriberQuantity>75140</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>ibmcloud</UserContentKey>
+                        <SubscriberQuantity>11764</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>websphereeducation</UserContentKey>
+                        <SubscriberQuantity>4244</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>ibmsystemz</UserContentKey>
+                        <SubscriberQuantity>2100</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>ibmpulse</UserContentKey>
+                        <SubscriberQuantity>1928</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>ibmbusinessanalytics</UserContentKey>
+                        <SubscriberQuantity>1528</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>developerworks</UserContentKey>
+                        <SubscriberQuantity>1016</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>smartsoa</UserContentKey>
+                        <SubscriberQuantity>916</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>startatibm</UserContentKey>
+                        <SubscriberQuantity>704</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>ibmsmartercomputing</UserContentKey>
+                        <SubscriberQuantity>480</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>ibmhealthcare</UserContentKey>
+                        <SubscriberQuantity>432</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>ibmsystems</UserContentKey>
+                        <SubscriberQuantity>248</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>ibmswchannels</UserContentKey>
+                        <SubscriberQuantity>108</SubscriberQuantity>
+                     </SocialMediaDetail>
+                     <SocialMediaDetail>
+                        <SocialMediaPlatformName DNBCodeValue="25866">Youtube</SocialMediaPlatformName>
+                        <UserContentKey>retailhardened</UserContentKey>
+                        <SubscriberQuantity>96</SubscriberQuantity>
+                     </SocialMediaDetail>
+                  </Telecommunication>
+                  <Location>
+                     <PrimaryAddress>
+                        <StreetAddressLine>
+                           <LineText>1 NEW ORCHARD RD</LineText>
+                        </StreetAddressLine>
+                        <PrimaryTownName>Armonk</PrimaryTownName>
+                        <CountryISOAlpha2Code>US</CountryISOAlpha2Code>
+                        <TerritoryAbbreviatedName>NY</TerritoryAbbreviatedName>
+                        <PostalCode>105041722</PostalCode>
+                        <CountyOfficialName>Westchester County</CountyOfficialName>
+                        <TerritoryOfficialName>New York</TerritoryOfficialName>
+                     </PrimaryAddress>
+                     <MailingAddress>
+                        <CountryISOAlpha2Code>US</CountryISOAlpha2Code>
+                     </MailingAddress>
+                  </Location>
+                  <OrganizationName>
+                     <OrganizationPrimaryName>
+                        <OrganizationName>INTERNATIONAL BUSINESS MACHINES CORPORATION</OrganizationName>
+                     </OrganizationPrimaryName>
+                     <TradeStyleName>
+                        <OrganizationName>IBM</OrganizationName>
+                     </TradeStyleName>
+                  </OrganizationName>
+                  <OrganizationDetail>
+                     <FamilyTreeMemberRole>
+                        <FamilyTreeMemberRoleText DNBCodeValue="9141">Parent/Headquarters</FamilyTreeMemberRoleText>
+                     </FamilyTreeMemberRole>
+                  </OrganizationDetail>
+                  <News>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-04-01T12:53:29-04:00</PublishedDateTimestamp>
+                        <SourceDescription>SiliconANGLE</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>How IBM is reinventing business around cloud : Key buys + offloads</TitleText>
+                        <ContentText>IBM is changing, reinventing business around the cloud. The coming together of industry trends such as cloud, mobile, social, and Big Data and analytics is helping to drive this change. IBM’s new cloud-oriented focus applies to IBM’s own business as well as its existing clients’ business.
+
+To reinvent itself as a cloud-oriented business, IBM has been selling off its hardware groups</ContentText>
+                        <WebPageURL>http://siliconangle.com/blog/2014/04/01/how-ibm-is-reinventing-business-around-cloud-key-buys-offloads/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-04-01T11:27:51-04:00</PublishedDateTimestamp>
+                        <SourceDescription>PR Newswire</SourceDescription>
+                        <CategoryText>Earnings Release</CategoryText>
+                        <CategoryText>Financial News</CategoryText>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>General Industry</CategoryText>
+                        <TitleText>Report: IBM Named Market Share Leader in Application Infrastructure and Middleware Software... -- ARMONK, N.Y., April 1, 2014 /PRNewswire/ --</TitleText>
+                        <ContentText>ARMONK, N.Y., April 1, 2014 /PRNewswire/ -- IBM (NYSE: IBM ) today announced that based on Gartner's definition of the application infrastructure and middleware market, IBM has one again been named the worldwide market share leader, marking 13 consecutive years of sustained leadership. The rankings are based on total worldwide revenue for 2013.
+
+According to the Gartner report, "All</ContentText>
+                        <WebPageURL>http://www.prnewswire.com/news-releases/report-ibm-named-market-share-leader-in-application-infrastructure-and-middleware-software-for-13-consecutive-years-253383421.html</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-04-01T04:12:35-04:00</PublishedDateTimestamp>
+                        <SourceDescription>CIO Asia</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>General Industry</CategoryText>
+                        <TitleText>Oracle overtakes IBM as second-largest software vendor, Gartner says</TitleText>
+                        <ContentText>Oracle has overtaken rival IBM as the world's second-largest software vendor by pulling in US$29.6 billion in software revenue during 2013, according to analyst firm Gartner.
+
+Oracle has overtaken rival IBM as the world's second-largest software vendor by pulling in US$29.6 billion in software revenue during 2013, according to analyst firm Gartner.
+
+"Global trends around big data and</ContentText>
+                        <WebPageURL>http://www.cio-asia.com/resource/applications/oracle-overtakes-ibm-as-second-largest-software-vendor-gartner-says/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-04-01T03:03:59-04:00</PublishedDateTimestamp>
+                        <SourceDescription>IT Jungle</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Townsend Taps Tieto to Resell IBM i Security Tools</TitleText>
+                        <ContentText>Townsend Security 's Alliance AES/400 encryption solution for IBM i is among the products now being sold by Tieto , the big IT services firm covering Northern Europe.
+
+Tieto is a publicly traded IT services firm based in Finland that had about €1.7 billion in revenues last year and employs 15,000 people. The IBM business partner provides customers in the Nordic region with IBM i and</ContentText>
+                        <WebPageURL>http://www.itjungle.com/fhs/fhs040114-story06.html</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-31T19:19:40-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Tech Investor News</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>Merger And Acquisition</CategoryText>
+                        <TitleText>Will Cloud Acquisitions Boost Cisco And IBM</TitleText>
+                        <ContentText>Cisco and IBM In The Cloud- Proven leaders?
+
+The cloud market is estimated to be a $222.5B market by 2015 with 23.5% annual growth. This growth translates to a 225% increase in the cloud space from 2010-2015. Cisco (CSCO), a technology giant that has struggled in recent years, should regain its footing due to the expansion of its cloud platform. In the company's latest</ContentText>
+                        <WebPageURL>http://www.techinvestornews.com/Cisco/Latest-Cisco-News/will-cloud-acquisitions-boost-cisco-and-ibm</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-31T16:05:32-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Marketwatch.com</SourceDescription>
+                        <CategoryText>General Industry</CategoryText>
+                        <TitleText>Microsoft still No. 1 in software; Oracle dislodges IBM at No. 2, says Gartner</TitleText>
+                        <ContentText>Microsoft remained the top software vendor in the world in 2013, but in a significant shift, Oracle has dislodged IBM Corp. from the No. 2 spot, Gartner said Monday. Software revenue globally totaled $407.3 billion, up about 5% from the year-earlier period, with Microsoft hanging on to the No. 1 spot with roughly 66% total share.
+
+Oracle followed with 30%, outpacing IBM which had 29%</ContentText>
+                        <WebPageURL>http://blogs.marketwatch.com/thetell/2014/03/31/microsoft-still-no-1-in-software-oracle-dislodges-ibm-at-no-2-says-gartner/?mod=MW_latest_news</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-31T14:49:40-04:00</PublishedDateTimestamp>
+                        <SourceDescription>PR Newswire</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>Awards</CategoryText>
+                        <TitleText>Frost &amp; Sullivan Leadership Award Names IBM Best-in-Class Global Smart City Integrator</TitleText>
+                        <ContentText>ARMONK, N.Y., March 31, 2014 /PRNewswire/ -- Frost &amp; Sullivan announced today that IBM (NYSE: IBM ) received the 2014 Global Visionary Innovation Leadership Award as Best-in-Class Smart City Integrator.
+
+An independent analysis from the Visionary Innovation Research Group at Frost &amp; Sullivan has named IBM the leading Smart City integrator, recognizing its deep expertise in working with?</ContentText>
+                        <WebPageURL>http://www.prnewswire.com/news-releases/frost--sullivan-leadership-award-names-ibm-best-in-class-global-smart-city-integrator-253240951.html</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-31T07:52:01-04:00</PublishedDateTimestamp>
+                        <SourceDescription>The New New Internet</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>IBM to Pump $1.2B in Cloud Computing Center Network</TitleText>
+                        <ContentText>IBM will spend $1.2 billion to build a global network of cloud computing centers in an initiative aimed at expanding the company’s geographical footprint, CruxialCIO reported Friday .
+
+Antone Gonsalves writes IBM intends to add 15 data centers this year and will focus on providing its SoftLayer cloud storage and networking technology to enterprise clients.
+
+The IBM SoftLayer portfolio</ContentText>
+                        <WebPageURL>http://blog.executivebiz.com/2014/03/ibm-to-pump-1-2b-in-cloud-computing-center-network/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-30T23:03:11-04:00</PublishedDateTimestamp>
+                        <SourceDescription>IT Jungle</SourceDescription>
+                        <CategoryText>Merger And Acquisition</CategoryText>
+                        <TitleText>IBM Builds Out With Software Stack Smarter Counter Fraud</TitleText>
+                        <ContentText>As we have pointed out a number of times now, IBM is gradually building an arsenal of application software and related services to make up for the fact that it ceded the market for ERP, supply chain, and customer relationship management to others in the 1990s and 2000s. IBM has spent tens of billions of dollars acquiring companies with expertise in analytics, security, sales, and</ContentText>
+                        <WebPageURL>http://www.itjungle.com/tfh/tfh033114-story09.html</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-29T06:03:05-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Supply &amp; Demand Chain Excecutive</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Mark Martini to Lead Sales and Customer Development</TitleText>
+                        <ContentText>Boston—Mar. 28, 2014—Trace One, a global provider of private-label product lifecycle management (PLM) solutions for retailers, manufacturers and suppliers, announced that Mark Martini joined its executive team to lead the company’s sales and customer development efforts in North America.
+
+With more than 23 years of extensive sales and sales management experience in the consumer products?</ContentText>
+                        <WebPageURL>http://www.sdcexec.com/news/11362621/recent-hire-further-establishes-cloud-based-firms-presence-in-the-north-american-private-label-plm-market</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-28T14:11:05-04:00</PublishedDateTimestamp>
+                        <SourceDescription>NYSE Post</SourceDescription>
+                        <CategoryText>General Industry</CategoryText>
+                        <TitleText>International Business Machines Corp.(NYSE:IBM) Announced Big Data Leader For The Second Successive Year</TitleText>
+                        <ContentText>Boston, MA – (NYSEPOST) – 03/28/2014 – International Business Machines Corp.(NYSE:IBM) is ranked number one again as market leader in the big data market for the second successive year. This is according to the report shared by Wikibon’s Big Data Vendor Revenue and Market Forecast which had covered 70 vendors as part of the research. International Business Machines Corp during 2013</ContentText>
+                        <WebPageURL>http://nysepost.com/international-business-machines-corp-nyseibm-announced-big-data-leader-for-the-second-successive-year-60885</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-28T12:57:07-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Jutia Group</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <CategoryText>General Industry</CategoryText>
+                        <TitleText>International Business Machines Corporation (NYSE:IBM) | IBM Unleashes Big Data Technology Against Fraud</TitleText>
+                        <ContentText>[at TheStreet] – IBM is launching an all-out battle against the sophisticated global supply chain of hackers and other fraudulent activities targeted at enterprises.
+
+International Business Machines Corporation (IBM), with a current value of $199.10B, opened this morning at $189.96.
+
+Looking at today’s market, IBM one day range is $189.11 to $192.62 with a one year range of $172.19 to</ContentText>
+                        <WebPageURL>http://jutiagroup.com/20140328-international-business-machines-corporation-nyseibm-ibm-unleashes-big-data-technology-against-fraud/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-28T02:17:37-04:00</PublishedDateTimestamp>
+                        <SourceDescription>mUmBRELLA</SourceDescription>
+                        <CategoryText>Executive Announcement</CategoryText>
+                        <CategoryText>Management Change</CategoryText>
+                        <TitleText>Screen Australia chairman Glen Boreham to go</TitleText>
+                        <ContentText>The inaugural chairman of Screen Australia Glen Boreham will step down on June 30 after six years in the role.
+
+Boreham, who is the managing director of IBM Australia , was the first person to chair Screen Australia when the industry body was formed in 2008, replacing the Australian Film Commission and the Film Finance Corporation and Film Australia.
+
+He was then reappointed chairman</ContentText>
+                        <WebPageURL>http://mumbrella.com.au/screen-australia-chairman-glen-boreham-go-217167</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-27T21:29:04-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Vanguard</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <TitleText>IBM’s cognitive computing to address Africa’s challenges</TitleText>
+                        <ContentText>ALL apprehensions over IBM’s claim to have developed a technology that can solve Africa’s problems, disappeared by the time participants at the just concluded IBM Cognitive Colloquium,toured the IBM research lab at the Catholic University, Nairobi, Kenya.
+
+The technologies on display gave convincing signals that cognitive computing is the next frontier that will address African local?</ContentText>
+                        <WebPageURL>http://www.vanguardngr.com/2014/03/ibms-cognitive-computing-address-africas-challenges/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-27T20:03:54-04:00</PublishedDateTimestamp>
+                        <SourceDescription>International Business Machines Corporation</SourceDescription>
+                        <CategoryText>Earnings Release</CategoryText>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>Financial News</CategoryText>
+                        <CategoryText>General Industry</CategoryText>
+                        <TitleText>Report: Wikibon Ranks IBM Number One in Big Data Market for Second Consecutive Year</TitleText>
+                        <ContentText>IBM today announced that it has been named the market share leader in the big data market for the second consecutive year, according to Wikibon's Big Data Vendor Revenue and Market Forecast report. IBM again ranks number one ahead of more than 70 vendors considered in the research.  E-mail this page Save to del.icio.us Digg this</ContentText>
+                        <WebPageURL>http://www-03.ibm.com/press/us/en/pressrelease/43532.wss</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-27T12:04:40-04:00</PublishedDateTimestamp>
+                        <SourceDescription>PR Newswire</SourceDescription>
+                        <CategoryText>Reduction</CategoryText>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>General Industry</CategoryText>
+                        <CategoryText>Expansion</CategoryText>
+                        <TitleText>IBM Commits $100 Million to Globally Expand Unique Consulting Model That Fuses Strategy, Data and Design</TitleText>
+                        <ContentText>ARMONK, N.Y., March 27, 2014 /PRNewswire/ -- IBM (NYSE: IBM ) today announced plans to commit more than $100 million to globally expand its consulting services capability to help clients with experience design and engagement. As part of the investment, the company will open 10 new IBM Interactive Experience labs around the world and plans to add 1,000 employees to create new,</ContentText>
+                        <WebPageURL>http://www.prnewswire.com/news-releases/ibm-commits-100-million-to-globally-expand-unique-consulting-model-that-fuses-strategy-data-and-design-252664671.html</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-27T11:32:24-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Business Standard</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>Merger And Acquisition</CategoryText>
+                        <TitleText>IBM eyes India market for its cloud services</TitleText>
+                        <ContentText>India will also be part of the $1.2 billion investment that IBM plans to invest in increasing its global cloud footprint. As part of this investment IBMs data centre will go up from 13 now to 40 in 2014.
+
+Among the newest IBM cloud centres to launch will be in China, the US, UK, Japan, India, Canada and Mexico. This is part of the strategy where IBM aims to bring cloud to every</ContentText>
+                        <WebPageURL>http://www.business-standard.com/article/companies/ibm-eyes-india-market-for-its-cloud-services-114032700841_1.html</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-27T10:16:35-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Data Center Knowledge</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <CategoryText>Merger And Acquisition</CategoryText>
+                        <TitleText>With Blue Mix, IBM Services Meet the SoftLayer Cloud</TitleText>
+                        <ContentText>At the heart of IBM’s cloud computing push is SoftLayer, the $2 billion dollar acquisition that provides the infrastructure and automation underpinning of IBM’s cloud. To realize its cloud ambitions, IBM must find a way to connect its existing base of enterprise customers to the SoftLayer platform.
+
+A key ingredient in IBM’s effort is Blue Mix, a Platform as a Service offering that</ContentText>
+                        <WebPageURL>http://www.datacenterknowledge.com/archives/2014/03/27/blue-mix-ibm-services-meet-softlayer-cloud/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-26T11:50:22-04:00</PublishedDateTimestamp>
+                        <SourceDescription>The Courier Australia</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Ballarat gains Smarter Cities grant in IBM waste plan</TitleText>
+                        <ContentText>Global IBM consultants will help Ballarat to plan a forward-thinking waste management project to cater for the city’s rapidly growing population.
+
+IBM yesterday announced the City of Ballarat as one of 16 recipients from around the world for a 2014 Smarter Cities Challenge grant worth $US500,000.
+
+As part of the initiative, a team of IBM consultants will spend three weeks in Ballarat.</ContentText>
+                        <WebPageURL>http://www.thecourier.com.au/story/2178738/ballarat-gains-smarter-cities-grant-in-ibm-waste-plan/?cs=62</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-26T08:21:47-04:00</PublishedDateTimestamp>
+                        <SourceDescription>TelecomLead</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>IBM steps up focus on telecoms with cloud, analytics innovations</TitleText>
+                        <ContentText>IBM India today announced its innovations — cloud, analytics, mobile and social technologies – to assist telecoms to improve customer engagement and monetize.
+
+The announcement is happening at a time when the IT vendor is reportedly facing huge pressure to retain its IT outsourcing account with Bharti Airtel, India’s #1 telecom operator. There are indications that Bharti Airtel will</ContentText>
+                        <WebPageURL>http://www.telecomlead.com/telecom-equipment/ibm-steps-focus-telecoms-cloud-analytics-innovations-22549/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-26T08:17:13-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Market Wire</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>General Industry</CategoryText>
+                        <TitleText>Fresche Legacy R&amp;D Efforts Translate Into Big Gains for Companies With Business Applications and Data on IBM i</TitleText>
+                        <ContentText>MONTREAL, CANADA--(Marketwired - March 26, 2014) - Fresche Legacy, a leading provider of legacy technology management solutions serving the IBM i and HP Midrange markets announced today the release of X-Analysis V10, a market leading solution for documentation and design recovery for IBM i environments and the flagship product of Fresche Legacy's Databorough division.
+
+New capabilities</ContentText>
+                        <WebPageURL>http://www.marketwired.com/press-release/fresche-legacy-r-d-efforts-translate-into-big-gains-companies-with-business-applications-1892494.htm</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-26T08:14:05-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Data Center Knowledge</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>IBM SoftLayer Extends its Cloud to Hong Kong</TitleText>
+                        <ContentText>The first of IBM’s new data centers will be open for online orders this week in Hong Kong. The SoftLayer data center is the first of 15 planned data centers that Big Blue will open in 2014 as part of its $1.2 billion commitment towards data center expansion to support its cloud.
+
+“As part of IBM’s expanding global cloud footprint, we are launching a new data center in Hong Kong,” said</ContentText>
+                        <WebPageURL>http://www.datacenterknowledge.com/archives/2014/03/26/ibm-softlayer-extends-cloud-hong-kong/</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T18:16:00-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Pitney Bowes Inc.</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>Pitney Bowes and IBM to Collaborate on Hybrid Cloud Location Services</TitleText>
+                        <ContentText>ARMONK, N.Y. &amp; STAMFORD, Conn., March 25, 2014 - Pitney Bowes Inc. (NYSE:PBI) and IBM (NYSE:IBM) today announced a collaboration on IBM's codename "BlueMix" platform-as-a-service to develop new hybrid cloud location services that help businesses unearth deeper connections between their customers, their geography, and their networks to deliver more personalized services and contextually</ContentText>
+                        <WebPageURL>http://news.pb.com/article_display.cfm?article_id=5569</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T17:26:06-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Tech Trader Daily</SourceDescription>
+                        <CategoryText>General Industry</CategoryText>
+                        <TitleText>Google Cloud Price Cuts Bode Ill for EMC, NTAP, IBM, Says Barclays</TitleText>
+                        <ContentText>Barclays‘s hardware analyst Ben Reitzes this afternoon chimes in with a warning of the “deflationary pressure” upon enterprise hardware offerings from NetApp ( NTAP ), EMC ( EMC ), and International Business Machines ( IBM) implied by the newly announced price cuts from Google ( GOOG ) for public cloud computing.
+
+As I noted in a previous post , Google said today it will cut the cost of?</ContentText>
+                        <WebPageURL>http://blogs.barrons.com/techtraderdaily/2014/03/25/google-cloud-price-cuts-bode-ill-for-emc-ntap-ibm-says-barclays/?mod=BOLBlog</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T15:44:22-04:00</PublishedDateTimestamp>
+                        <SourceDescription>SFGate</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>Awards</CategoryText>
+                        <TitleText>eCIFM Solutions Inc. Wins IBM's Prestigious 2014 Cloud &amp; Smarter Infrastructure Award for Outstanding Asset &amp; Facilities Management Innovation</TitleText>
+                        <ContentText>eCIFM announces that it is a proud recipient of the 2014 IBM Cloud &amp; Smarter Infrastructure (C&amp;SI) Award.
+
+eCIFM Solutions Inc. (eCIFM), an IBM Gold Level Premier Business Partner was awarded the IBM’s prestigious 2014 Cloud &amp; Smarter Infrastructure (C&amp;SI) Award for outstanding innovations and advancements in Assets and Facilities Management using the IBM TRIRIGA software solution.
+
+C&amp;SI</ContentText>
+                        <WebPageURL>http://www.sfgate.com/business/press-releases/article/eCIFM-Solutions-Inc-Wins-IBM-s-Prestigious-2014-5346934.php</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T15:03:38-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Components in Electronics</SourceDescription>
+                        <CategoryText>New Product</CategoryText>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Altera joins IBM OpenPOWER foundation, looks to develop next-generation data centres</TitleText>
+                        <ContentText>Altera Corporation has joined the IBM OpenPOWER Foundation, an open development alliance based on IBM's POWER microprocessor architecture. Altera will collaborate with IBM and other OpenPOWER Foundation members to develop high-performance compute solutions that integrate IBM POWER CPUs with Altera’s FPGA-based acceleration technologies for use in next-generation data centres.
+
+FPGAs</ContentText>
+                        <WebPageURL>http://www.cieonline.co.uk//altera-joins-ibm-openpower-foundation-looks-to-develop-next-generation-data-centres.aspx</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T13:00:07-04:00</PublishedDateTimestamp>
+                        <SourceDescription>FierceTelecom</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <CategoryText>General Industry</CategoryText>
+                        <TitleText>Amazon, Salesforce and IBM Lead in Cloud Infrastructure Service Segments</TitleText>
+                        <ContentText>RENO, NV, March 25, 2014--New Q4 data from Synergy Research Group shows that Amazon (AWS), Salesforce and IBM are the market leaders in the three key cloud infrastructure services market segments. Amazon remains in a league of its own in the public IaaS market, while IBM has a clear lead in private &amp; hybrid cloud infrastructure services. Meanwhile the public PaaS market is hotly</ContentText>
+                        <WebPageURL>http://www.fiercetelecom.com/press-releases/amazon-salesforce-and-ibm-lead-cloud-infrastructure-service-segments</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T11:19:34-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Bionews</SourceDescription>
+                        <CategoryText>New Alliance</CategoryText>
+                        <TitleText>'Big data on steroids': IBM's Watson supercomputer to work on brain cancer genetics</TitleText>
+                        <ContentText>IBM and the New York Genome Centre have teamed up to announce the latest weapon in the fight against cancer - Watson the supercomputer....</ContentText>
+                        <WebPageURL>http://www.bionews.org.uk/page.asp?obj_id=407534</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T10:19:52-04:00</PublishedDateTimestamp>
+                        <SourceDescription>Scott Rosenberg's Links &amp; Comment</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Mr. Gates Is In The Building! -- 4 Columns</TitleText>
+                        <ContentText>Click "Submit Abuse" if you feel this post is inappropriate. Explain why below if you wish.
+
+(These columns originally appeared in the Westchester Guardian:
+
+Perhaps getting even more press than the appointment of Satya Narayana Nadella to be Steve Ballmar’s replacement as Microsoft’s CEO was the fact that William H. “Bill” Gates III would be returning to “active duty,” at least on</ContentText>
+                        <WebPageURL>http://open.salon.com/blog/johnmac13/2014/03/24/mr_gates_is_in_the_building_--_4_columns</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T09:38:37-04:00</PublishedDateTimestamp>
+                        <SourceDescription>The Times of India</SourceDescription>
+                        <CategoryText>Merger And Acquisition</CategoryText>
+                        <TitleText>Lenovo-IBM server deal gets CCI nod</TitleText>
+                        <ContentText>NEW DELHI: Global technology major Lenovo's $2.3 billion deal with IBM to acquire the US-based company's low-end server business has received approval from fair trade watchdog CCI.
+
+The proposed deal, one of the biggest acquisitions by a Chinese firm in the technology space, involves Lenovo Group acquiring x86 server business of technology giant IBM.
+
+The deal "is not likely to have?</ContentText>
+                        <WebPageURL>http://timesofindia.indiatimes.com/tech/tech-news/Lenovo-IBM-server-deal-gets-CCI-nod/articleshow/32657480.cms</WebPageURL>
+                     </NewsDetails>
+                     <NewsDetails>
+                        <PublishedDateTimestamp>2014-03-25T09:32:05-04:00</PublishedDateTimestamp>
+                        <SourceDescription>AllAfrica.com</SourceDescription>
+                        <CategoryText>Executive Quote</CategoryText>
+                        <TitleText>Norway's Public Roads Administration Turns to IBM to Enhance Traffic Management</TitleText>
+                        <ContentText>The Norwegian Public Roads Administration (NPRA) has selected IBM to design, build and deliver a new centralised road toll system across Norway.
+
+Drawing upon IBM's extensive traffic system management experience, big data and analytics capabilities, and mobile expertise, the new toll system named 'AutoPASS Grindgut' will process more than 470 million vehicle passages per year, accounting</ContentText>
+                        <WebPageURL>http://allafrica.com/stories/201403250857.html</WebPageURL>
+                     </NewsDetails>
+                  </News>
+               </Organization>
+            </Product>
+         </OrderProductResponseDetail>
+      </new:OrderProductResponse>
+   </soap-env:Body>
+</soapenv:Envelope>

@@ -15,6 +15,9 @@ body {
 	padding-top: @font-size-base;
 }
 
+.cat-container {
+}
+
 .news-story {
 	.make-row();
 	&:last-of-type .contents {
@@ -49,12 +52,15 @@ body {
 }
 
 h3 {
+	font-size: @font-size-base;
 	display: none;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	color: #fff;
-	padding: @font-size-base;
+	padding: @font-size-base/2;
 	border-radius: @border-radius-base;
+	margin-bottom: 0;
+	margin-top: @font-size-base;
 	a {
 		color: #fff;
 	}
