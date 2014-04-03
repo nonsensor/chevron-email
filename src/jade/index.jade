@@ -12,14 +12,55 @@ body
 			.col-sm-4
 				img(src="img/hp.png").responsive.pull-right
 	.container
-		.row
-			.col-sm-12.email-news-title
-				span.pull-right 
-					a#show-all(href="#") Show All
-				h1 News and Insights for 
-					span.company Amazon
-		.row#amazon-stories
-		.row#google-stories
+		#amazon-stories
+			.row
+				.col-sm-12.email-news-title
+					h1 News and Insights for 
+						span.company Amazon
+				.col-sm-12.spinner 
+					p Loading...
+		#cisco-stories
+			.row
+				.col-sm-12.email-news-title
+					h1 News and Insights for 
+						span.company Cisco
+				.col-sm-12.spinner 
+					p Loading...
+		#emc-stories
+			.row
+				.col-sm-12.email-news-title
+					h1 News and Insights for 
+						span.company EMC
+				.col-sm-12.spinner 
+					p Loading...
+		#google-stories
+			.row
+				.col-sm-12.email-news-title
+					h1 News and Insights for 
+						span.company Google
+				.col-sm-12.spinner 
+					p Loading...
+		#ibm-stories
+			.row
+				.col-sm-12.email-news-title
+					h1 News and Insights for 
+						span.company IBM
+				.col-sm-12.spinner 
+					p Loading...
+		#microsoft-stories
+			.row
+				.col-sm-12.email-news-title
+					h1 News and Insights for 
+						span.company Microsoft
+				.col-sm-12.spinner 
+					p Loading...
+		#vmware-stories
+			.row
+				.col-sm-12.email-news-title
+					h1 News and Insights for 
+						span.company VMWare
+				.col-sm-12.spinner 
+					p Loading...
 		//- etc
 	.container
 		.footer
@@ -28,16 +69,22 @@ body
 	script(src='js/parse.js')
 	script.
 		$(document).ready(function(){
-			buildNews("news_amazon.xml","Amazon");
+			buildCompanySection("news_amazon.xml","Amazon","#amazon-stories");
+			buildCompanySection("news_cisco.xml","Cisco","#cisco-stories");
+			buildCompanySection("news_emc.xml","EMC","#emc-stories");
+			buildCompanySection("news_google.xml","Google","#google-stories");
+			buildCompanySection("news_ibm.xml","IBM","#ibm-stories");
+			buildCompanySection("news_microsoft.xml","Microsoft","#microsoft-stories");
+			buildCompanySection("news_vmware.xml","VMWare","#vmware-stories");
 		});
-		function buildNews(xmlFile,companyName){
 
+		function buildCompanySection(xmlFile,companyName,companyDiv){
 			$.ajax({
 				type: "GET",
-				url: "news_amazon.xml",
+				url: xmlFile,
 				dataType: "text",
 				success: function(xml){
-					parseNews(xml);
+					parseNews(xml,companyDiv,companyName);
 				},
 				error: function() {
 					alert("An error occurred while processing XML file.");

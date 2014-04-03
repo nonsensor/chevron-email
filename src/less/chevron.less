@@ -1,7 +1,7 @@
 @import "bootstrap.less";
 
 body {
-	font-family: "Open Sans",Helvetica,arial,sans-serif;
+	//font-family: "Open Sans",Helvetica,arial,sans-serif;
 }
 
 .container {
@@ -20,8 +20,23 @@ body {
 
 .news-story {
 	.make-row();
-	&:last-of-type .contents {
-		border-bottom: 0;
+	.story-block {
+		.make-sm-column(12);
+		padding-bottom: @font-size-base/2;
+		margin-bottom: @font-size-base;
+		border-bottom: 1px solid @gray-lighter;
+		p,h4,h2 {
+			margin-left: @font-size-base/2;
+			margin-right: @font-size-base/2;
+		}
+	}
+	h4.story-date {
+		color: @gray-light;
+		margin-bottom: @font-size-base/2;
+	}
+	h2 {
+		margin-top: 0;
+		padding-top: 0;
 	}
 }
 
@@ -29,20 +44,21 @@ body {
 	margin-top: 36px;
 }
 
-.story-block {
-	.make-sm-column(12);
-	h2 {
-		font-weight: 700;
+.summary {
+	@media screen and (min-width: @screen-sm) {
+		display: inline-block;
+		box-sizing: border-box;
+		width: 50%;
+		padding-left: @font-size-base/2;
+		padding-right: @font-size-base/2;
+		vertical-align: top;
 	}
-	h2,p,h4,.contents {
-		margin-left: @font-size-base;
-		margin-right: @font-size-base;
-	}
-	.contents {
-		border-bottom: 1px solid lighten(@brand-primary,60%);
-		padding-bottom: @font-size-base;
+	p {
+		font-size: @font-size-base;
 	}
 }
+
+
 .meta {
 	color: @gray-light;
 }
@@ -53,37 +69,27 @@ body {
 
 h3 {
 	font-size: @font-size-base;
-	display: none;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	color: #fff;
 	padding: @font-size-base/2;
 	border-radius: @border-radius-base;
 	margin-bottom: 0;
 	margin-top: @font-size-base;
-	a {
-		color: #fff;
-	}
-	a:hover {
-		text-decoration: none;
-	}
+	color: #fff;
 }
 
 span.company {
 	font-weight: bold;
 }
 
-h3.executive-quote { 
+h3.cat-title-quotes { 
 	background-color: @brand-info; 
 	a:hover {
 		color: darken(@brand-info,20%);
 	}
 }
-h3.executive-activity {
+h3.cat-title-activities {
 	background-color: darken(@brand-success,20%); 
-	a:hover {
-		color: darken(@brand-success,40%);
-	}
 }
 h3.executive-announcement {
 	background-color: darken(@brand-warning,20%); 
@@ -91,7 +97,7 @@ h3.executive-announcement {
 		color: darken(@brand-warning,40%);
 	}
 }
-h3.regulation {
+h3.cat-title-litigations {
 	background-color: darken(@brand-info,20%); 
 	a:hover {
 		color: darken(@brand-info, 40%)
@@ -109,7 +115,7 @@ h3.mgmt-change {
 		color: darken(@brand-success,20%);
 	}
 }
-h3.new-alliance { 
+h3.cat-title-alliances { 
 	background-color: @brand-danger;
 	a:hover {
 		color: darken(@brand-danger, 20%)
@@ -121,12 +127,16 @@ h3.wins {
 		color: darken(@brand-warning, 40%)
 	}
 }
-h3.industry { 
+h3.cat-title-industry { 
 	background-color: darken(@brand-danger,20%);
 	a:hover {
 		color: darken(@brand-danger, 40%)
 	}
 }
+h3.cat-title-products {
+	background-color: darken(@brand-warning,40%);
+}
+
 .hided {
 	display: none;
 }

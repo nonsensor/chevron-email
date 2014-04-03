@@ -64,24 +64,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 0
 		},
-	"\/src\/css\/theme.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/css\/theme.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/src\/jade\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/jade\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/src\/jade\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -1516,7 +1498,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Mike ",
+"lastSavedByUser": "Mike Propst",
 "manualImportLinks": {
 	},
 "projectAttributes": {
